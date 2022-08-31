@@ -1,6 +1,5 @@
 # Projeto Integrador - 2° Período
 ## Gestão de Patrimônio Comunitário
----
 <center> <h3><b>Projeto</b>: Sistema de controle de ativos </h3></center>
 <br>
 
