@@ -1,0 +1,25 @@
+@mixin reset-list($margem: 0, $espacamento: 0, $estilo: none){
+    list-style: $estilo;
+    margin: $margem;
+    padding: $espacamento;
+}
+
+@mixin  bg-effect ($effect){
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: bottom;
+    @if $effect == sucess {
+        background-color: #155724;
+    }
+    @else if $effect == danger{
+        background-color: #721c24;
+    }
+    @else if $effect == warning{
+        background-color: #ffc222;
+        color: #000;
+    }
+    @else{
+        background-color: #d6d8d9;
+        color: #000;
+    }
+}
