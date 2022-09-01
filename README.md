@@ -11,7 +11,7 @@
 ---
 <center><h3><b>EQUIPE</b></h3></center>
 
-> Boushra Akl: bushraakl1234@gmail.com
+> Bouchra Akl: bushraakl1234@gmail.com
 
 > Gustavo Piegat: gustavopiegat2004@gmail.com
 
