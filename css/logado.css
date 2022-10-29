@@ -2,84 +2,23 @@
 body{
     margin: 0;
     padding: 0;
-}
-
-.containerr{
     display: flex;
     flex-direction: row;
-
 }
-
-
-nav{
-    width: 200px;
-}
-
-/* POP-UP GENRERAL CSS */
-
-.popUp{
-    box-sizing: border-box;
-    width: 650px;
-    height: 290px;
-    background-color: #fff;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 999;
-}
-
-.popUp .modal{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 70px;
-}
-
-.popUp .modal i {
-    align-self: flex-start;
-    float: right;
-    margin-top: 7px;
-    margin-right: 20px;
-    padding: 3px;
-    background-color: #E5E5E5 ;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-.show {
-    display: none;
-}
-
-.notify{
-    margin-left: 70px;
-    margin-top: 30px;
-    text-align: center;
-    width: 500px;
-    height: 84px;
-    border-radius: 8px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.notify li {
-    list-style: none;
-}
-
-
-
 
 .wrap {
     display: grid;
+}
+
+nav{
+    width: 200px;
 }
 
 
 /* CAIXAS-DASHBOARD */
 
 .container{
-    height: 150px;
+    height: 155px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -127,7 +66,6 @@ hr{
 
 .dashTables{
     height: 330px;
-    margin-bottom: 30px;
     align-items: flex-end;
     display: inline-flex;
     gap: 140px;
