@@ -4,7 +4,8 @@ body{
     padding: 0;
     display: flex;
     gap: 60px;
-
+    display: flex;
+    box-sizing: content-box;
 }
 
 
