@@ -1,0 +1,90 @@
+@import url(/css/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0;
+}
+
+.theContent{
+    display: grid;
+    height: 500px;
+}
+
+.content-header{
+    margin-left: 30px;
+    display: grid;
+    height: 200px;
+}
+
+.content-tables{
+    display: grid;
+}
+
+nav{
+    width: 15%;
+    height: 100vh;
+    background-color: #0067C8;
+}
+
+.header-path .pathWay {
+    font-family: Inter;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.header-path .pathWay a {
+    text-decoration: none;
+    color: #232325;
+}
+
+
+.searchBox .headerBtn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 10px;
+    color:  #0067C8;
+}
+
+.searchBox form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.searchBox .input {
+    outline: none !important;
+    width: 270px;
+    height: 25px;
+    padding: 2px 10px;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    background-color: #F5F5F5;
+    border: 1px groove #808192;
+    margin-top: 10px;
+    align-items: center;
+    font-family: 'Inter';       
+}
+
+
+.searchBox .submitBtn{
+    align-self: center;
+    margin-top: 8px;
+    background: #F7A81B;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    width: 100px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
