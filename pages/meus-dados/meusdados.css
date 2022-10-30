@@ -1,0 +1,55 @@
+
+.titulos-input{
+
+    color: #0067C8;
+    
+    }
+    
+    input[type=menor] {
+      position: relative;
+      width: 250px;
+      padding: 8px 16px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      }
+  
+  
+    
+  input[type=maior] {
+    position: relative;
+    width: 600px;
+    padding: 8px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;      
+  }  
+  
+    
+  .esquerda {
+    
+  margin-top: 15%;
+  margin-left: 25%;
+  }
+    
+  .centro{
+    
+    margin-top: -17.6%;
+    margin-left: 43.2%;
+  }
+    
+    
+  .direita {
+    
+    margin-top: -5.9%;
+    margin-left: 60%;
+    
+  }
+  
+  
+  .Meus-Dados-Salvar {
+    color: white;
+    padding: 14px 110px;
+    background-color: #F7A81B;
+    margin-top: 3.3%;
+    margin-left: 60%;
+    border: none;
+  }
