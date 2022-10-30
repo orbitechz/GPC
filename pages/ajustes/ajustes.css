@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import "/css/main.css";
 
-/* USADCO EM 'ajustes.html' */
+/* USADO EM 'ajustes.html' */
 
 .titleRelatorios{
     margin-left: 20px;
