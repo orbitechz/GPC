@@ -27,7 +27,7 @@ button{
     cursor: pointer;
     width: 220px;
     height: 30px;
-    background-color: var(--botao-secundario);
+    background-color: white;
     color: var(--text-secundario);
     border: none;
     font-size: 18px;
@@ -40,7 +40,7 @@ button{
 .actived{
     box-shadow: none;
     color: white;
-    background-color: var(--botao-principal);
+    background-color: var(--cor-secundario);
     transition: background-color 0.4s ease-in;
     
 }
