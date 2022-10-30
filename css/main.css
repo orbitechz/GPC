@@ -1,5 +1,5 @@
 /* Variaveis Essenciais de Cores Padrões*/
-*{
+:root{
     --botao-principal: #F7A81B;
     --botao-secundario: white;
     --bg-principal: white;
