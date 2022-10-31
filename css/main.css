@@ -1,13 +1,7 @@
 /* Variaveis Essenciais de Cores Padrões*/
-<<<<<<< HEAD
-*{
+:root{
     --cor-principal: #0067C8;
     --cor-secundario: #F7A81B;
-=======
-:root{
-    --botao-principal: #F7A81B;
-    --botao-secundario: white;
->>>>>>> a2f8eb9ee9dd9c0fc1bad941563dfc7d10b773ba
     --bg-principal: white;
     --text-secundario: #808192;
 }
