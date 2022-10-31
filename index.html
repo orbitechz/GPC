@@ -15,25 +15,24 @@
 
     <form>
         <div class="form">
+            <div class="aviso" id="aviso-reset-senha">
+            </div>
             <div class="login">
-                <button class="submit-lente">
-                    <i class="bi bi-envelope"></i>
-                </button>
-                <input placeholder="email@dominio.com" type="text" id="user">
+                <i class="icon bi bi-envelope"></i>
+                <input placeholder="email@dominio.com" required type="text" id="user">
             </div>
             <div class="password">
-                <button class="submit-lente" type="submit">
-                    <i class="bi bi-lock"></i>
-                </button>
-                <input placeholder="Senha" type="text" class="login" id="pwd">
+                <i class="icon bi bi-lock"></i>
+                <input placeholder="Senha" type="password" required class="login" id="pwd">
             </div>
         </div>
-        <button type="submit" class="submit">Entrar</button>
+        <button type="button" id="submit" onclick="login()">Entrar</button>
     </form>
-
-    <p class="reset">Esqueceu a senha?</p>
-    <button class="reset" type="submit" onclick="forgotPwd">Clique aqui</button>
+    <div class="resetPwd">
+        <p>Esqueceu a senha?</p>
+        <button type="submit" onclick="forgotPwd()">Clique aqui</button>
+    </div>
     
-    <script src="/js/main.js"></script>
+    <script src="/js/login.js"></script>
 </body>
 </html>

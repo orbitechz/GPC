@@ -15,9 +15,8 @@ input{
     border-radius: 5px;
     height: 1.3rem;
     color: white;
-    width: 20rem;
+    width: 15rem;
     padding: .3rem 2rem;
-    
 }
 
 input::placeholder{
@@ -37,31 +36,61 @@ form{
   
 }
 
-.submit{
+#submit{
     width: 8rem;
     border-radius: .3rem;
     height: 2.3rem;
+    align-self: center;
+}
+#submit:hover{
+    height: 2.6rem;
+    width: 8.3rem;
+    font-size:1.3rem;
+    transition-property: all;
+    transition-duration: 200ms;
 }
 
 img{
     width: 20rem;
-    height: 20rem;
+    height: 15rem;
 }
 
 i{
     color: white;
-}
-
-.submit-lente {
     position:absolute;
-    top:0; right:0;
-    z-index:10;
+    z-index:-1;
     border:none;
     background:transparent;
     outline:none;
-  }
-  
-  .submit-line {
-    position: relative;
-    width: 200px;
-  }
+    margin: .6rem;
+}
+
+.resetPwd {
+    display: flex;
+}
+.resetPwd p{
+    color: white;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.resetPwd button {
+    background-color: transparent;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    color: var(--cor-secundario);
+}
+.resetPwd button:hover {
+    font-size:1.3rem;
+    transition-property: all;
+    transition-duration: 800ms;
+}
+
+.aviso{
+    color: var(--cor-secundario);
+    font-weight: bold;
+    font-family: Inter;
+    font-size: 1.2rem;
+}
