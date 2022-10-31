@@ -10,7 +10,6 @@
 
 body {
     background-color: var(--bg-principal);
-    padding-left: 200px;
 }
 
 .listar {
@@ -21,6 +20,7 @@ body {
     padding-left: 20px;
 
 }
+
 
 @keyframes animation-button{
     0%{
@@ -39,7 +39,28 @@ body {
     animation-iteration-count: infinite;
     animation-direction:alternate;
 }
+button{
+    user-select: none;
+    cursor: pointer;
+    width: 220px;
+    height: 30px;
+    background-color: var(--botao-secundario);
+    color: var(--text-secundario);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: none;
+}
 
+.actived{
+    box-shadow: none;
+    color: white;
+    background-color: var(--botao-principal);
+    transition: background-color 0.4s ease-in;
+    
+}
 .actived{
     box-shadow: none;
     color: white;
