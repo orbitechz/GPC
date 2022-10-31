@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    .content{
+        flex-wrap: wrap;
+        flex-direction: row;    
+        display: flex;
+        flex-flow: column;
+        flex-direction: column;
+    }
+        .content h1{
+            font-family: 'Inter', sans-serif;
+            color: #000; 
+            display: block;
+            padding: 10px;
+        }
+        .content label{
+            font-family: 'Inter', sans-serif;
+            color: #0067C8; 
+            font-weight: bold;
+            padding: 10px;
+        }
+        .content input{
+            font-family: 'Inter', sans-serif;
+            padding: 10px;
+            background-color: #F5F5F5;
+            border: 1px solid #808192;
+        }
+        .content button{
+            font-family: 'Inter', sans-serif;
+            background-color: #F7A81B;
+            padding: 10px;
+            color: white;
+            border: 1px solid #F7A81B;
+        }
+        .lineBlue{
+            background-color: #0067C8;
+            height: 50px;
+            margin-top: 100px;
+            margin-bottom: 20px;
+        }
+            .lineBlue ul{
+                font-family: 'Inter', sans-serif;
+                list-style: none;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 15px 150px;
+            }
+            main{
+                flex-wrap: wrap;
+                flex-direction: row;    
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                align-content: flex-start;
+            }
+                .used{
+                    width: 50%;
+                    align-content: flex-start;
+                }
+                .used ul li{
+                    font-family: 'Inter', sans-serif;
+                    list-style: none;
+                    display: inline;
+                    flex-wrap: wrap;
+                    flex-direction: row;    
+                    padding: 20px;
+                }
+                .used button{
+                    font-family: 'Inter', sans-serif;
+                    background-color: green;
+                    border: none;
+                    margin: 10px 0;
+                }
+                .allCategories{
+                    align-content: flex-start;
+                    width: 50%;
+                }
+                .allCategories ul li{
+                    font-family: 'Inter', sans-serif;
+                    list-style: none;
+                    display: inline;
+                    flex-wrap: wrap;
+                    flex-direction: row;    
+                    padding: 20px;
+                    align-content: flex-start;
+                }
+                .allCategories .view{
+                    font-family: 'Inter', sans-serif;
+                    background-color:#0067C8;
+                    border: none;
+                    margin: 10px 0;
+                }
+                .allCategories .led{
+                    font-family: 'Inter', sans-serif;
+                    background-color:#F7A81B;
+                    border: none;
+                    margin: 10px 0;
+                }
+                
+                .latestChanges{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    flex-direction: row;    
+                    align-content: flex-start;
+                    padding: 15px 150px;
+                }
+                .latestChanges .categories ul li{
+                    font-family: 'Inter', sans-serif;
+                    list-style: none;
+                    display: inline;
+                    flex-wrap: wrap;
+                    flex-direction: row;    
+                    padding: 20px;
+                    align-content: flex-start;
+                }
+                .latestChanges .changes ul li{
+                    font-family: 'Inter', sans-serif;
+                    list-style: none;
+                    display: inline;
+                    flex-wrap: wrap;
+                    flex-direction: row;    
+                    padding: 20px;
+                    align-content: flex-start;
+                }
+                .latestChanges .actions ul li{
+                    font-family: 'Inter', sans-serif;
+                    list-style: none;
+                    display: inline;
+                    flex-wrap: wrap;
+                    flex-direction: row;    
+                    padding: 20px;
+                    align-content: flex-start;
+                    justify-content: flex-ends;
+                }
+                .actions .view{
+                    font-family: 'Inter', sans-serif;
+                    background-color: #0067C8;
+                    border: none;
+                    margin: 10px 0;
+                }
+                .actions .lend{
+                    font-family: 'Inter', sans-serif;
+                    background-color: tomato;
+                    border: none;
+                    margin: 10px 0;
+                }
