@@ -7,9 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestão de Patrimônio</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
+    <img src="/assets/logo-rotary.svg" alt="Logo da Rotary Pessoas em Ação">
+
+    <form>
+        <i class="bi bi-envelope"></i>
+        <input placeholder="email@dominio.com" type="text" class="login" id="user">
+        <i class="bi bi-lock"></i>
+        <input placeholder="Senha" type="text" class="login" id="pwd">
+        <button type="submit" class="submit">Entrar</button>
+    </form>
+
+    <p class="reset">Esqueceu a senha?</p>
+    <button class="reset" type="submit" onclick="forgotPwd">Clique aqui</button>
+    
     <script src="/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,5 @@
+@import "/css/main.css";
+
+body{
+    background-color: var(--cor-principal);
+}
