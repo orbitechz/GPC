@@ -5,3 +5,18 @@
     --bg-principal: white;
     --text-secundario: #808192;
 }
+
+button{
+    user-select: none;
+    cursor: pointer;
+    width: 220px;
+    height: 30px;
+    background-color: var(--cor-secundario);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: none;
+}
