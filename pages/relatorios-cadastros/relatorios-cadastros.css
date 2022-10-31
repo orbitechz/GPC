@@ -1,5 +1,4 @@
 @import url(/css/main.css);
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 body{
     margin: 0;
@@ -10,17 +9,21 @@ body{
 
 .theContent{
     display: grid;
+    width: 100%;
     height: 500px;
+    gap: 20px;
 }
 
 .content-header{
     margin-left: 30px;
     display: grid;
+    width: 40px;
     height: 200px;
 }
 
 .content-tables{
     display: grid;
+    row-gap: 100px;
 }
 
 nav{
@@ -88,3 +91,51 @@ nav{
     cursor: pointer;
 }
 
+table{
+    height: 100px;
+}
+
+.content-tables table thead tr th {
+    text-align: left;
+    text-indent: 30px;
+    height: 30px;
+    background-color: #0067C8;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.content-tables table tbody {
+    text-indent: 30px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #232325;
+}
+
+.content-tables table tbody .box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.content-tables table tbody .box a {
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.content-tables table tbody .blue {
+    background-color: #0067C8;
+    padding-right: 30px;
+
+}
+
+.content-tables table tbody .red {
+    background-color: #F32D2D;
+    padding-right: 30px;
+
+}
