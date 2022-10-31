@@ -37,6 +37,24 @@ button{
     transition: none;
 }
 
+@keyframes animation-button{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+    button:hover{
+    background-image: linear-gradient(15deg,#F7A81B,#f3c436);
+    animation-name: animation-button;
+    animation-duration: 0.5s;
+    animation-timing-function: eases-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+
 .actived{
     box-shadow: none;
     color: white;
@@ -180,6 +198,7 @@ hr{
 
 
 .searchBox .submitBtn{
+    cursor:pointer;
     margin-left: -5px;
     padding-top: 1px;
     background: #F7A81B;
