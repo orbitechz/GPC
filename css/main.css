@@ -24,7 +24,7 @@ body{
 /* Lateral Azul - Menu principal */
 .navMenu{
     height: 100vh;
-    background: #0067C8;
+    background-color: #0067C8;
     align-items: center;
     align-content: center;
     margin-right: 1rem;
