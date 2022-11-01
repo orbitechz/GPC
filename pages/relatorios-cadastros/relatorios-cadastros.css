@@ -1,0 +1,141 @@
+@import url(/css/main.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0;
+}
+
+.theContent{
+    display: grid;
+    width: 100%;
+    height: 500px;
+    gap: 20px;
+}
+
+.content-header{
+    margin-left: 30px;
+    display: grid;
+    width: 40px;
+    height: 200px;
+}
+
+.content-tables{
+    display: grid;
+    row-gap: 100px;
+}
+
+nav{
+    width: 15%;
+    height: 100vh;
+    background-color: #0067C8;
+}
+
+.header-path .pathWay {
+    font-family: Inter;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.header-path .pathWay a {
+    text-decoration: none;
+    color: #232325;
+}
+
+
+.searchBox .headerBtn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 10px;
+    color:  #0067C8;
+}
+
+.searchBox form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.searchBox .input {
+    outline: none !important;
+    width: 270px;
+    height: 25px;
+    padding: 2px 10px;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    background-color: #F5F5F5;
+    border: 1px groove #808192;
+    margin-top: 10px;
+    align-items: center;
+    font-family: 'Inter';       
+}
+
+
+.searchBox .submitBtn{
+    align-self: center;
+    margin-top: 8px;
+    background: #F7A81B;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    width: 100px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+table{
+    height: 100px;
+}
+
+.content-tables table thead tr th {
+    text-align: left;
+    text-indent: 30px;
+    height: 30px;
+    background-color: #0067C8;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.content-tables table tbody {
+    text-indent: 30px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #232325;
+}
+
+.content-tables table tbody .box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.content-tables table tbody .box a {
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.content-tables table tbody .blue {
+    background-color: #0067C8;
+    padding-right: 30px;
+
+}
+
+.content-tables table tbody .red {
+    background-color: #F32D2D;
+    padding-right: 30px;
+
+}

@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 @import "/css/main.css";
 
-/* USADO EM 'ajustes.html' */
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gridrel{
+    display: grid;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+nav{
+    width: 15%;
+    height: 100vh;
+    background-color: #0067C8;
+}
 
 .titleRelatorios{
     margin-left: 20px;
@@ -15,13 +33,16 @@
 
 hr{
     display: block;
-    width: 300px ;
+    width: 150px ;
     border: 0;
     border-top: 1px solid #C3C3B5 ;
     margin: 1em 1em ;
     padding: 0;
 }
+
+
 .layout{
+    margin-bottom:40px ;
     display: grid;
     grid-template-columns: auto auto ;
     justify-content: center;
@@ -56,12 +77,13 @@ a{
 }
 
 .hv{
-
+    position: fixed;
     border-left: 1px solid #C3C3B5;
-    height: 450px;
-    position: absolute;
-    margin-top: -190px;
-    left: 50%;
-    top: 50%;
+    height: 350px;
+    position:absolute;
+    left: 55%;
+
 
 }
+
+
