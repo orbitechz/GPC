@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 60px;
+    display: flex;
+    box-sizing: content-box;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 35px;
+    height: 200px;
+} 
