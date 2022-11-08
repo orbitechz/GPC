@@ -1,7 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,700&display=swap');
+   
 /* Variaveis Essenciais de Cores Padrões*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 :root{
-    --botao-principal: #F7A81B;
-    --botao-secundario: white;
+    --cor-principal: #0067C8;
+    --cor-secundario: #F7A81B;
     --bg-principal: white;
     --text-secundario: #808192;
 }
+
+.logo-sidebar {
+    width: 200px;
+    filter: grayscale(100%);
+}       
+/* Lateral Azul - Menu principal */
+.navMenu{
+    height: 100vh;
+    background-color: #0067C8;
+    align-items: center;
+    align-content: center;
+    margin-right: 1rem;
+}
+.navMenu ul li{
+    list-style: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    padding: 20px 5px;
+    width: 200px;
+}
+.navMenu ul li a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.navMenu .logout ul li{
+    align-items: baseline;
+    align-content: flex-end;
+    position: relative;
+    bottom: 0;
+    
+}
+
