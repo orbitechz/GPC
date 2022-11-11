@@ -1,4 +1,4 @@
-@import url("https://grupo09-projeto-integrador.github.io/GPC/css/main.css");
+
 
 body{
     margin: 0;
@@ -7,72 +7,50 @@ body{
     flex-direction: row;
 }
 
+nav{
+    width: 190px;
+    background-color: #0067C8;
+}
+
 .containerr{
     display: flex;
     flex-direction: row;
 
 }
 
+
+
 /* POP-UP GENRERAL CSS */
 
-.popUp{
-    box-sizing: border-box;
-    width: 650px;
-    height: 290px;
+.popUp { 
+    width: 550px;
+    height: 190px;
     background-color: #fff;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    z-index: 999;
+    z-index: 99;
+}
+
+.show{
+    display: none;
 }
 
 .popUp .modal{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: center;
-    gap: 70px;
+    align-items: center;
+    gap: 30px;
 }
 
-.popUp .modal i {
-    align-self: flex-start;
-    float: right;
-    margin-top: 7px;
-    margin-right: 20px;
-    padding: 3px;
-    background-color: #E5E5E5 ;
-    border-radius: 30px;
-    cursor: pointer;
+.popUp .modal .con p{
+    font-family: Inter;
+    font-size: 20px;
 }
 
-.show {
-    display: none;
-}
 
-.notify{
-    margin-left: 70px;
-    margin-top: 30px;
-    text-align: center;
-    width: 500px;
-    height: 84px;
-    border-radius: 8px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.notify li {
-    list-style: none;
-}
-
-.wrap {
-    display: grid;
-}
-
-nav{
-    width: 200px;
-}
 
 
 /* CAIXAS-DASHBOARD */
@@ -85,6 +63,7 @@ nav{
     gap: 15px;
     margin-top: 35px;
     margin-right: 40px;
+    margin-left: 20px;
 } 
 
 .container .elemento {
@@ -119,6 +98,7 @@ nav{
 }
 
 hr{
+    margin-left: 20px;
     margin-right: 50px;
 }
 /* ////////////////// */
@@ -130,6 +110,7 @@ hr{
     align-items: flex-end;
     display: inline-flex;
     gap: 140px;
+    margin-left: 20px;
 }
 
 .ativosAtraso {

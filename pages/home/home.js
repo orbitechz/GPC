@@ -5,6 +5,12 @@ let thePopUp = document.querySelector(".popUp");
 let closePopUp = document.querySelector("i");
 let theCont = document.querySelector(".containerr");
 let theNotif = document.querySelector(".notify");
+let tablesRows = document.querySelectorAll("#row");
+let trashBin = document.querySelectorAll(".bi-trash3");
+let theBody = document.querySelector("body");
+let btnOne = document.querySelector(".btnOne");
+let btnTwo = document.querySelector(".btnTwo");
+
 
 const apiSmaple = [
 
@@ -35,16 +41,6 @@ const apiSmaple = [
 
 ]
 
-closePopUp.addEventListener("click",function(){
-    thePopUp.classList.add("show");
-});
-
-// window.addEventListener("mouseup",function(e){
-//     let popup = thePopUp;
-//     if(e.target != popup  && e.target.childNodes != popup.childNodes){
-//         thePopUp.classList.add("show");
-//     }
-// });
 
 
 for(let i =0 ; i<theBox.length ; i++){
@@ -76,50 +72,72 @@ for(let i =0 ; i<theQuantity.length ; i++){
 
 }
 
-for(let j=0 ; j<apiSmaple.length ; j++){
-    if(apiSmaple[j].itemQuantity < 5 && apiSmaple[j].itemQuantity > 0 ){
+for(let i=0 ; i<trashBin.length ; i++){
+    trashBin[i].addEventListener("click",function(){
+        thePopUp.classList.remove("show");
+        btnOne.addEventListener("click",function(){
+            thePopUp.classList.add("show");
+            tablesRows[i].remove();
+        });
+    });
 
-        let note = document.createElement("ul");
-
-        theNotif.appendChild(note);
-
-        let linote = document.createElement("li");
-
-        note.appendChild(linote);
-
-
-        linote.textContent = `Faltam ${apiSmaple[j].itemQuantity} ${apiSmaple[j].itemname}  a ser emprestados`
-        linote.style.setProperty("background","#DCECFB");
-        linote.style.setProperty("color","#2E65F3");
-        
-    }
-    else if(apiSmaple[j].itemQuantity === 0){
-        let note = document.createElement("ul");
-
-        theNotif.appendChild(note);
-
-        let linote = document.createElement("li");
-
-        note.appendChild(linote);
-
-
-        linote.textContent = `Estoque de  ${apiSmaple[j].itemname} acabado`
-        linote.style.setProperty("background","#FFDBDB");
-        linote.style.setProperty("color","#F32D2D");
-    }
 }
 
-let note = document.createElement("ul");
-
-theNotif.appendChild(note);
-
-let linote = document.createElement("li");
-
-note.appendChild(linote);
-
-linote.textContent = `Beneficiário Cadastrado com sucesso  `
-linote.style.setProperty("background","#DCFBEA");
-linote.style.setProperty("color","#249F5D");
 
 
+// for(let j=0 ; j<apiSmaple.length ; j++){
+//     if(apiSmaple[j].itemQuantity < 5 && apiSmaple[j].itemQuantity > 0 ){
 
+//         let note = document.createElement("ul");
+
+//         theNotif.appendChild(note);
+
+//         let linote = document.createElement("li");
+
+//         note.appendChild(linote);
+
+
+//         linote.textContent = `Faltam ${apiSmaple[j].itemQuantity} ${apiSmaple[j].itemname}  a ser emprestados`
+//         linote.style.setProperty("background","#DCECFB");
+//         linote.style.setProperty("color","#2E65F3");
+        
+//     }
+//     else if(apiSmaple[j].itemQuantity === 0){
+//         let note = document.createElement("ul");
+
+//         theNotif.appendChild(note);
+
+//         let linote = document.createElement("li");
+
+//         note.appendChild(linote);
+
+
+//         linote.textContent = `Estoque de  ${apiSmaple[j].itemname} acabado`
+//         linote.style.setProperty("background","#FFDBDB");
+//         linote.style.setProperty("color","#F32D2D");
+//     }
+// }
+
+// let note = document.createElement("ul");
+
+// theNotif.appendChild(note);
+
+// let linote = document.createElement("li");
+
+// note.appendChild(linote);
+
+// linote.textContent = `Beneficiário Cadastrado com sucesso  `
+// linote.style.setProperty("background","#DCFBEA");
+// linote.style.setProperty("color","#249F5D");
+
+
+// closePopUp.addEventListener("click",function(){
+//     thePopUp.classList.add("show");
+// });
+
+// window.addEventListener("mouseup",function(e){
+//     let popup = thePopUp;
+//     if(e.target != popup  && e.target.childNodes != popup.childNodes){
+//         thePopUp.classList.add("show");
+//     }
+// });
