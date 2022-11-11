@@ -79,6 +79,9 @@ for(let i=0 ; i<trashBin.length ; i++){
             thePopUp.classList.add("show");
             tablesRows[i].remove();
         });
+        btnTwo.addEventListener("click",function(){
+            thePopUp.classList.add("show");
+        })
     });
 
 }
