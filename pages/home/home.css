@@ -31,6 +31,9 @@ nav{
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 99;
+    -webkit-box-shadow: 7px -2px 26px -3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 7px -2px 26px -3px rgba(0,0,0,0.6);
+    box-shadow: 7px -2px 26px -3px rgba(0,0,0,0.6);
 }
 
 .show{
@@ -49,7 +52,6 @@ nav{
     font-family: Inter;
     font-size: 20px;
 }
-
 
 
 

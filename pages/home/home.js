@@ -21,17 +21,17 @@ const apiSmaple = [
 
     {
         itemname: "Muletas",
-        itemQuantity: 4
+        itemQuantity: 14
     },
 
     {
         itemname: "Cama hospitalar",
-        itemQuantity: 0
+        itemQuantity: 2
     },
 
     {
         itemname: "Tala" ,
-        itemQuantity: 12
+        itemQuantity: 0
     },
 
     {
