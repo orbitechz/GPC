@@ -5,6 +5,7 @@ body{
     padding: 0;
     display: flex;
     flex-direction: row;
+    height: 20rem;
 }
 
 .containerr{
@@ -25,6 +26,10 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 999;
+    border: 1px solid;
+    border-color: #aaaaaa45;
+    box-shadow: 0;
+    box-shadow: 10px 10px 5px #aaaaaa45;
 }
 
 .popUp .modal{
