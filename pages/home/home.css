@@ -1,15 +1,11 @@
+@import url("/css/main.css");
 
 body{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
-}
-
-.navbar nav{
-    width: 170px;
-    height: 100vh;
-    background-color: #0067C8;
+    flex-direction: row;
+    height: 20rem;
 }
 
 .containerr{
