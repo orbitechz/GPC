@@ -21,7 +21,7 @@ body{
     width: 200px;
     filter: grayscale(100%);
 }       
-/* Lateral Azul - Menu principal */
+/* Lateral Azul - Menu principal  */
 .navMenu{
     height: 100vh;
     background-color: #0067C8;
@@ -49,4 +49,3 @@ body{
     bottom: 0;
     
 }
-
