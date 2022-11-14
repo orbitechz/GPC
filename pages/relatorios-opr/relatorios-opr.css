@@ -1,0 +1,15 @@
+
+
+table{
+    height: 60px;
+    width: 100%;
+}
+
+.body-content{
+    width: 100%;
+} 
+
+.content-tables{
+    margin-bottom: 40px;
+    row-gap: 10px;
+}
