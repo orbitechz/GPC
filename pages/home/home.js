@@ -5,7 +5,7 @@ let thePopUp = document.querySelector(".popUp");
 let closePopUp = document.querySelector("i");
 let theCont = document.querySelector(".containerr");
 let theNotif = document.querySelector(".notify");
-let tablesRows = document.querySelectorAll("#row");
+let tablesRows = document.querySelectorAll(".dinamic");
 let trashBin = document.querySelectorAll(".bi-trash3");
 let theBody = document.querySelector("body");
 let btnOne = document.querySelector(".btnOne");
@@ -16,7 +16,7 @@ const apiSmaple = [
 
     {
         itemname: "Cadeira de rodas",
-        itemQuantity: 50
+        itemQuantity: 60
     },
 
     {
