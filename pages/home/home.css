@@ -1,6 +1,6 @@
 @import url("/css/main.css");
 
-body{
+body{ 
     margin: 0;
     padding: 0;
     display: flex;
@@ -62,7 +62,10 @@ body{
 
 }
 
-
+.body-content{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
