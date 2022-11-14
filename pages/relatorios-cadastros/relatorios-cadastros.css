@@ -4,13 +4,20 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 0;
+    justify-content: space-between;
+}
+
+.navv nav{
+    width: 170px;
+    height: 100vh;
+    background-color: #0067C8;
 }
 
 .theContent{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 500px;
+    height: auto;
     gap: 20px;
 }
 
@@ -23,14 +30,10 @@ body{
 
 .content-tables{
     display: grid;
-    row-gap: 100px;
+    row-gap: 50px;
 }
 
-nav{
-    width: 15%;
-    height: 100vh;
-    background-color: #0067C8;
-}
+
 
 .header-path .pathWay {
     font-family: Inter;
@@ -119,14 +122,22 @@ table{
     display: flex;
     justify-content: center;
     text-align: center;
+    gap: 15px;
 
 
 }
 
-.content-tables table tbody .box a {
+.content-tables table tbody .box button {
+    padding-left: 15px;
+    font-family: Inter;
     color: #FFFFFF;
-    text-decoration: none;
     letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+
 }
 .content-tables table tbody .blue {
     background-color: #0067C8;
