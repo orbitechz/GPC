@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gestão de Patrimônio</title>
-    <link rel="stylesheet" href="https://grupo09-projeto-integrador.github.io/GPC/css/login.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-</head>
-<body>
-    <img src="https://grupo09-projeto-integrador.github.io/GPC/assets/logo-rotary.svg" alt="Logo da Rotary Pessoas em Ação">
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <img src="/assets/logo-rotary.svg" alt="Logo da Rotary Pessoas em Ação" />
 
     <form>
-        <div class="form">
-            <div class="aviso" id="aviso-reset-senha">
-            </div>
-            <div class="login">
-                <i class="icon bi bi-envelope"></i>
-                <input placeholder="email@dominio.com" required type="text" id="user">
-            </div>
-            <div class="password">
-                <i class="icon bi bi-lock"></i>
-                <input placeholder="Senha" type="password" required class="login" id="pwd">
-            </div>
+      <div class="form">
+        <div class="aviso" id="aviso-reset-senha"></div>
+        <div class="login">
+          <i class="icon bi bi-envelope"></i>
+          <input
+            placeholder="email@dominio.com"
+            required
+            type="text"
+            id="user"
+          />
         </div>
-        <button type="button" id="submit" onclick="login()">Entrar</button>
+        <div class="password">
+          <i class="icon bi bi-lock"></i>
+          <input
+            placeholder="Senha"
+            type="password"
+            required
+            class="login"
+            id="pwd"
+          />
+        </div>
+      </div>
+      <button type="button" id="submit" onclick="login()">Entrar</button>
     </form>
     <div class="resetPwd">
-        <p>Esqueceu a senha?</p>
-        <button type="submit" onclick="forgotPwd()">Clique aqui</button>
+      <p>Esqueceu a senha?</p>
+      <button type="submit" onclick="forgotPwd()">Clique aqui</button>
     </div>
-    
-    <script src="https://grupo09-projeto-integrador.github.io/GPC/js/login.js"></script>
-</body>
+
+    <script src="js/login.js"></script>
+  </body>
 </html>
