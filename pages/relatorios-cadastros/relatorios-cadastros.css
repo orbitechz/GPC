@@ -4,16 +4,10 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
 }
 
-.navv nav{
-    width: 170px;
-    height: 100vh;
-    background-color: #0067C8;
-}
 
-.theContent{
+.body-content{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -95,7 +89,7 @@ body{
 }
 
 table{
-    height: 100px;
+    height: auto;
 }
 
 .content-tables table thead tr th {
