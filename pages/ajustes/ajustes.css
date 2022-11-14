@@ -31,7 +31,7 @@ hr{
 
 }
 
-a{
+.body-content a{
     text-decoration: none;
     font-family: Inter;
     font-size: 25px;

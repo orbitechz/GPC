@@ -53,6 +53,7 @@ figure{
     display: block;
     text-decoration: none;
     color: inherit;
+    font-weight: 600;
 }
 .navMenu .logout ul li{
     align-items: baseline;

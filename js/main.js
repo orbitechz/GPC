@@ -6,8 +6,11 @@ Autores:
  - Tiago Guillande
  - Vinicius Aquino
 */
-
+const head = document.querySelector("head");
 const body = document.querySelector("body");
+
+head.insertAdjacentHTML("beforeend", `<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css'>`)
+
 body.insertAdjacentHTML("afterbegin", `<sidebar class="navMenu">
 <figure><img class="logo-sidebar" src="/assets/imgs/logo-rt-int-2.png" alt="Sistema GPC Rotary"></figure>
 <nav>
