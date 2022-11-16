@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela Relatorio - Cadastro -Beneficiario </title>
-    <link rel="stylesheet" href="https://grupo09-projeto-integrador.github.io/GPC/pages/relatorios-cadastros/relatorios-cadastros.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://grupo09-projeto-integrador.github.io/GPC/css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela Relatorio - Cadastro -Beneficiario</title>
+    <link rel="stylesheet" href="/pages/relatorios-cadastros/relatorios-cadastros.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"/>
 
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+ 
 
-    <nav></nav>
 
-    <section class="theContent">
+    <div class="body-content">
+      <section class="content-header">
+        <section class="header-path">
+          <p class="pathWay">
+            <a href="/pages/relatorios/relatorios.html">Relatórios</a>>><a
+              href="/pages/relatorios/relatorios.html"
+              >Cadastros</a
+            >>><a href="/pages/relatorios-cadastros/relatorios-cadastros.html"
+              >Beneficiários</a
+            >
+          </p>
+          <hr />
+        </section>
 
-    <section class="content-header">
+        <div class="searchBox">
+          <p class="headerBtn">Buscar</p>
+          <form action="">
+            <input type="text" class="input" placeholder="Buscar" />
+            <input class="submitBtn" type="button" value="Buscar" />
+          </form>
+        </div>
+      </section>
 
-    <section class="header-path">
-    <p class="pathWay"><a href="https://grupo09-projeto-integrador.github.io/GPC/pages/relatorios/relatorios.html">Relatórios</a>>><a href="https://grupo09-projeto-integrador.github.io/GPC/pages/relatorios/relatorios.html">Cadastros</a>>><a href="https://grupo09-projeto-integrador.github.io/GPC/pages/relatorios-cadastros/relatorios-cadastros.html">Beneficiários</a></p>
-    <hr>
-    </section>
-
-    <div class="searchBox">
-        <p class="headerBtn">Buscar</p>
-        <form action="">
-            <input type="text" class="input" placeholder="Buscar">
-            <input class="submitBtn"type="button" value="Buscar">
-        </form>
-    </div>
-
-    </section>
-
-    <section class="content-tables">
-
+      <section class="content-tables">
         <table>
             <thead>
                 <tr>
-                    <th>Cadastros Por Semana</th>
+                    <th width="40%">Cadastros Por Semana</th>
                     <th>Status</th>
-                    <th class="center">Ações</th>
+                    <th class="center" width="40%">Ações</th>
                 </tr>
             </thead>
             <tbody>
@@ -50,12 +56,8 @@
                     <td>Cadastros 3 Sept 2022</td>
                     <td>Aberto</td>
                     <td class="box">
-                        <div class="one">
-                        <a href="" class="blue"><i class="bi bi-eye"></i>Visualizar</a>
-                        </div>
-                        <div class="two">
-                        <a href="" class="red"><i class="bi bi-download"></i>PDF</a>
-                    </div>
+                            <button class="blue"><i class="bi bi-eye"></i>Visualizar</button>
+                            <button class="red"><i class="bi bi-download"></i>PDF</button>
                     </td>
                 </tr>
 
@@ -63,39 +65,27 @@
                     <td>Cadastro 2 Sept 2022</td>
                     <td>Fechado</td>
                     <td class="box">
-                        <div class="one">
-                        <a href="" class="blue"><i class="bi bi-eye"></i>Visualizar</a>
-                        </div>
-                        <div class="two">
-                        <a href="" class="red"><i class="bi bi-download"></i>PDF</a>
-                    </div>
-                    </td>
+                        <button class="blue"><i class="bi bi-eye"></i>Visualizar</button>
+                        <button class="red"><i class="bi bi-download"></i>PDF</button>
+                </td>
                 </tr>
 
                 <tr>
                     <td>Cadastro 1 Jun 2022</td>
                     <td>Fechado</td>
                     <td class="box">
-                        <div class="one">
-                        <a href="" class="blue"><i class="bi bi-eye"></i>Visualizar</a>
-                        </div>
-                        <div class="two">
-                        <a href="" class="red"><i class="bi bi-download"></i>PDF</a>
-                    </div>
-                    </td>
+                        <button class="blue"><i class="bi bi-eye"></i>Visualizar</button>
+                        <button class="red"><i class="bi bi-download"></i>PDF</button>
+                </td>
                 </tr>
 
                 <tr>
                     <td>Cadastro 4 Jun 2022</td>
                     <td>Fechado</td>
                     <td class="box">
-                        <div class="one">
-                        <a href="" class="blue"><i class="bi bi-eye"></i>Visualizar</a>
-                        </div>
-                        <div class="two">
-                        <a href="" class="red"><i class="bi bi-download"></i>PDF</a>
-                    </div>
-                    </td>
+                        <button class="blue"><i class="bi bi-eye"></i>Visualizar</button>
+                        <button class="red"><i class="bi bi-download"></i>PDF</button>
+                </td>
                 </tr>
             </tbody>
         </table>
@@ -103,9 +93,9 @@
         <table>
             <thead>
                 <tr>
-                    <th>Cadastros Por Ano</th>
+                    <th width="40%">Cadastros Por Ano</th>
                     <th>Status</th>
-                    <th class="center">Ações</th>
+                    <th width="40%" class="center">Ações</th>
                 </tr>
             </thead>
             <tbody>
@@ -113,50 +103,35 @@
                     <td>Cadastros 2022</td>
                     <td>Aberto</td>
                     <td class="box">
-                        <div class="one">
-                        <a href="" class="blue"><i class="bi bi-eye"></i>Visualizar</a>
-                        </div>
-                        <div class="two">
-                        <a href="" class="red"><i class="bi bi-download"></i>PDF</a>
-                    </div>
-                    </td>
+                        <button class="blue"><i class="bi bi-eye"></i>Visualizar</button>
+                        <button class="red"><i class="bi bi-download"></i>PDF</button>
+                </td>
                 </tr>
 
                 <tr>
                     <td>Cadastros 2021</td>
                     <td>Fechado</td>
                     <td class="box">
-                        <div class="one">
-                        <a href="" class="blue"><i class="bi bi-eye"></i>Visualizar</a>
-                        </div>
-                        <div class="two">
-                        <a href="" class="red"><i class="bi bi-download"></i>PDF</a>
-                    </div>
-                    </td>
+                        <button class="blue"><i class="bi bi-eye"></i>Visualizar</button>
+                        <button class="red"><i class="bi bi-download"></i>PDF</button>
+                </td>
                 </tr>
 
                 <tr>
                     <td>Cadastros 2020</td>
                     <td>Fechado</td>
                     <td class="box">
-                        <div class="one">
-                        <a href="" class="blue"><i class="bi bi-eye"></i>Visualizar</a>
-                        </div>
-                        <div class="two">
-                        <a href="" class="red"><i class="bi bi-download"></i>PDF</a>
-                    </div>
-                    </td>
+                        <button class="blue"><i class="bi bi-eye"></i>Visualizar</button>
+                        <button class="red"><i class="bi bi-download"></i>PDF</button>
+                </td>
                 </tr>
 
             </tbody>
         </table>
-    
+      </section>
 
 
-
-    </section>
-
-</section>
-<script src="https://grupo09-projeto-integrador.github.io/GPC/js/main.js"></script>
+</div>
+<script src="/js/main.js"></script>
 </body>
 </html>

@@ -1,21 +1,26 @@
-@import url("https://grupo09-projeto-integrador.github.io/GPC/css/main.css");
+@import url("/css/main.css");
 
 body{
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 0;
 }
 
-.theContent{
-    display: grid;
+
+nav{
+    width: 227px;
+}
+
+.body-content{
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 500px;
+    height: auto;
     gap: 20px;
 }
 
 .content-header{
-    margin-left: 30px;
+    margin-left: 40px;
     display: grid;
     width: 40px;
     height: 200px;
@@ -23,14 +28,10 @@ body{
 
 .content-tables{
     display: grid;
-    row-gap: 100px;
+    row-gap: 50px;
 }
 
-nav{
-    width: 15%;
-    height: 100vh;
-    background-color: #0067C8;
-}
+
 
 .header-path .pathWay {
     font-family: Inter;
@@ -92,7 +93,8 @@ nav{
 }
 
 table{
-    height: 100px;
+    height: auto;
+    max-width: 100%;
 }
 
 .content-tables table thead tr th {
@@ -112,21 +114,29 @@ table{
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
-    color: #232325;
+    color: #232325; 
 }
 
 .content-tables table tbody .box{
     display: flex;
     justify-content: center;
     text-align: center;
+    gap: 15px;
 
 
 }
 
-.content-tables table tbody .box a {
+.content-tables table tbody .box button {
+    padding-left: 15px;
+    font-family: Inter;
     color: #FFFFFF;
-    text-decoration: none;
     letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+
 }
 .content-tables table tbody .blue {
     background-color: #0067C8;
