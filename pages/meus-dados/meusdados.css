@@ -1,4 +1,4 @@
-@import url("/css/main.css");;
+/*@import url("/css/main.css");*/
 
   :root{
 
@@ -25,7 +25,7 @@
     box-sizing: border-box;      
   }  
   
-  h4 {
+  .content h4 {
     font-family: 'Inter', sans-serif;
     color: var(--cor-azul);
 
