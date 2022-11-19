@@ -100,7 +100,7 @@
         padding: 0.5vw 1vw;
         margin: 0.5vw;
         border: none;
-        margin-top: 3.5vw;
+        margin-top: 4.4vw;
 
         background-color: var(--cor-botao);
         color: white;
@@ -144,7 +144,6 @@
     }
 
     .input-menor{
-
       margin-top: 46vw;
       margin-left: -8vw;
     }
