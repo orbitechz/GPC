@@ -6,22 +6,43 @@
 
   }
 
+  .content{
+    display: flex;
+    width: 50%;
+    margin-top: 9vw;
+    margin-left: 15vw;
+  }
 
-    input[type=menor] {
+    .input-center input{
       position: relative;
-      width: 250px;
-      padding: 8px 16px;
-      margin: 8px 0;
+      width: 20vw;
+      padding: 0.5vw 1vw;
+      margin: 0.5vw;
+      box-sizing: border-box;
+
+
+
+    }
+
+    .input-menor input {
+      position: relative;
+      width: 20vw;
+      padding: 0.5vw 1vw;
+      margin: 0.5vw;
       box-sizing: border-box;
       }
   
-  
+    .input-maior{
+
+      
+
+    }
     
-  input[type=maior] {
+  .input-maior input {
     position: relative;
-    width: 600px;
-    padding: 8px 16px;
-    margin: 8px 0;
+    width: 30vw;
+    padding: 0.5vw 1vw;
+    margin: 0.5vw;
     box-sizing: border-box;      
   }  
   
