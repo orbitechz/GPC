@@ -97,10 +97,10 @@
         font-family: 'Inter', sans-serif;
 
         width: 18vw;
-        padding: 0.7vw 1vw;
+        padding: 0.5vw 1vw;
         margin: 0.5vw;
         border: none;
-        margin-top: 4.4vw;
+        margin-top: 3.5vw;
 
         background-color: var(--cor-botao);
         color: white;
@@ -120,5 +120,53 @@
   .content h4 {
     font-family: 'Inter', sans-serif;
     color: var(--cor-azul);
+
+  }
+
+
+  @media screen and (max-width: 769px) {
+    .content h4 {
+      font-family: 'Inter', sans-serif;
+      color: var(--cor-azul);
+      font-size: 1.5vw;
+    }
+  
+    .input-dados{
+
+      margin-top: 12vw;
+
+    }
+
+    .input-dados2{
+
+      margin-left: -8vw;
+
+    }
+
+    .input-menor{
+
+      margin-top: 46vw;
+      margin-left: -8vw;
+    }
+
+    .input-menor a {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1vw;
+      font-family: 'Inter', sans-serif;
+
+      width: 18vw;
+      padding: 0.7vw 1vw;
+      margin: 0.5vw;
+      border: none;
+      margin-top: 4.4vw;
+
+      background-color: var(--cor-botao);
+      color: white;
+
+    }
+
+
 
   }
