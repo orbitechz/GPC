@@ -210,3 +210,45 @@ hr{
     color: #0067C8;
 }
 
+/* RESPONSIVITY */
+
+@media (max-width:1140px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    hr{
+        margin-top: 180px;
+    }
+    
+    .dashTables{
+    gap: 10px;
+}
+}
+
+@media (max-width:1090px) {
+    .dashTables{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        gap: 30px;
+    }
+}
+
+@media (max-width:1030px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    hr{
+        margin-top: 300px;
+    }
+    
+    .dashTables{
+    gap: 30px;
+}
+
+}
+
