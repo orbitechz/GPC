@@ -29,7 +29,7 @@ body{
 
 
 hr{
-    display: block;
+    display: block; 
     width: 150px ;
     border: 0;
     border-top: 1px solid #C3C3B5 ;
@@ -76,18 +76,36 @@ hr{
 }
 
 
-/* 
+/* RESPONSIVITY */
 
+@media (max-width:1120px) {
+    .innerContent{
+        margin-left: 80px;
+    }
+}
 
+@media (max-width:1090px) {
+    .innerContent{
+        margin-left: 50px;
+    }
+}
 
+@media (max-width:1030px) {
+    .innerContent{
+        margin-left: 30px;
+    }
+}
 
-
-
-
-
-@media (max-width:806px) {
-    .layout{flex-direction: column;}
-    body{justify-content: space-between;
-    align-items: flex-start;
-gap: 40px;}
-} */
+@media (max-width:950px) {
+    .innerContent{
+        margin-left: 30px;
+        grid-template-columns: auto;
+    }
+    .el{
+        margin-top: 0px;
+    }
+    .innerContent a{
+        margin-top: 50px;
+    }
+    
+}
