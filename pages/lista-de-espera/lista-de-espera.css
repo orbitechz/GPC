@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url("/css/main.css");
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--bg-principal);
+}
+
+.listar {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+
+
+@keyframes animation-button{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+    .top-btn:hover{
+    background-image: linear-gradient(15deg,#F7A81B,#f3c436);
+    animation-name: animation-button;
+    animation-duration: 0.5s;
+    animation-timing-function: eases-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+.top-btn {
+    user-select: none;
+    cursor: pointer;
+    width: 220px;
+    height: 30px;
+    background-color: var(--botao-secundario);
+    color: var(--text-secundario);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: none;
+}
+
+.actived{
+    box-shadow: none;
+    color: white;
+    background-color: var(--botao-principal);
+    transition: background-color 0.4s ease-in;
+    
+}
+.actived{
+    box-shadow: none;
+    color: white;
+    background-color: var(--cor-secundario);
+    transition: background-color 0.4s ease-in;
+    
+}
+
+.container .title{
+
+    font-size: 15px ;
+    font-weight: 600;
+    line-height: 34px;
+    margin-left: 15px;
+    padding: 4px;
+
+}
+
+.container form .title .hr1 {
+    margin-top: 5px;
+    border: 0.5px solid #C3C3B5;
+    background-color: #C3C3B5;
+    width: 1111px;
+
+}
+
+.container form .title .hr1 {
+    margin-right: 70px;
+}
+
+
+.content form{
+    margin: 1em ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.content form .inputInbox{
+    padding: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+
+}
+
+.container .content input {
+
+    width: 300px;
+    height: 33px;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 16px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 4px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(92, 92, 92, 0.6);
+}
+
+#cep {
+    width: 138px;
+}
+
+#num{
+    width: 138px;
+}
+
+#adress 
+{
+    width: 375px;
+}
+
+
+.btn{
+    text-align: center;
+    border-radius: 0%;
+    background-color: #F7A81B ;
+    color: #fff;
+    font-weight: 700;
+    line-height: 4px;
+    border: none;
+    width: 220px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.flex-end{
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+hr{
+    display: block;
+    width: 600px ;
+    border: 0;
+    border-top: 1px solid #C3C3B5 ;
+    margin: 1em -2px;
+    padding: 0;
+}
+/*///////////////////////////////////////////////////////////////*/
+
+
+.table-list thead{
+    background-color: #0067C8;
+    color: #fff;
+    font-size: 1.5rem;
+    height: 50px;
+    text-align:center;
+    
+}
+
+.table-header{
+    width: 10000px;
+    
+}
+
+.inserts-table{
+    font-size: 16px;
+    padding-left: 25px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Inter';
+}
+
+.table-name{
+    font-size: 16px;
+    
+    
+}
+
+.link-image{
+    margin-bottom: -5px;
+}
+
+.buscar-btn{
+    width: 100px;
+}
+/*-----------------------------------------------------------------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+
+
+footer button{
+    background-color: #F32D2D;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    padding: 1vh;
+    user-select: none;
+    cursor: pointer;
+    width: 220px;
+    height: 30px;
+    border: none;
+    
+}
+
+.pdf-image{
+    padding-right: 1vw;
+}
+/*---------------------------------------------*/
+
+.body-content p{
+    font-size: 1.5vw;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    
+    
+}
