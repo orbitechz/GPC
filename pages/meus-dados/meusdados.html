@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPC - Meus Dados</title>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela ajustes</title>
-    <link rel="stylesheet" href="https://grupo09-projeto-integrador.github.io/GPC/pages/meus-dados/meusdados.css">
-    <link rel="stylesheet" href="https://grupo09-projeto-integrador.github.io/GPC/css/main.css">
+    <link rel="stylesheet" href="meusdados.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <div class="body-content"> 
+        <h1>Ajustes>>Dados Pessoais >> Meus Dados</h1>
+
+    <div class="content">
     
-    <h1>Ajustes >> Dados Pessoais >> Meus Dados</h1>
+    <div class="input-dados">
+        <h4>Nome Completo :</h4>
+        <input type="text" name="name">
 
-
-    <div class="caixa-informacoes">
-        
-        <div class="esquerda">
-            <h4 class="titulos-input">Nome Completo:</h4>
-            <input type="menor" name="nome">
-            <h4 class="titulos-input">E-mail:</h4>
-            <input type="maior" name="email">
-            <h4 class="titulos-input">Cargo: </h4>
-            <input type="maior" name="cargo">
-        </div>
-        
-
-        <div class="centro">
-        <h4 class="titulos-input">Documento:</h4>
-        <input type="menor" name="documento" >
-        </div>
-        
-        
-        <div class="direita">
-            <h4 class="titulos-input">Data de Nascimento:</h4>
-            <input type="menor" name="datanascimento">
-            <h4 class="titulos-input">Telf:</h4>
-            <input type="menor" name="telf">
-         </div>
-            
+    <div class="maiores">
+        <h4>E-mail :</h4>
+        <input type="email" required name="email">
+        <h4>Cargo : </h4>
+        <input type="text"  name="cargo">
+    </div>
     </div>
 
-    <button class="Meus-Dados-Salvar">Salvar</button>
+    <div class="input-dados2">
+        <h4>Documento:</h4>
+        <input type="text" name="Documento">
 
-    <script src="https://grupo09-projeto-integrador.github.io/GPC/js/main.js"></script>
+    </div>
+        
+    
+
+
+
+    <div class="input-menor">
+        <h4>Data de Nascimento : </h4>
+        <input type="date" name="data-nascimento">
+        <h4>Telf :</h4>
+        <input type="text" name="telf">
+        
+        <a href="#">Salvar</a>
+            
+        
+    </div>
+    
+    </div>
+    <script src="../../js/main.js"></script>
+    </div>
 </body>
 </html>
+

@@ -1,0 +1,124 @@
+*{
+    font-family: var(--font-principal);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.body-content{
+    width: 100%;
+}
+
+.forms-beneficiario,
+.forms-beneficiario form,
+.forms-beneficiario .info{
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-beneficiario .form-title{
+    align-self: flex-start;
+    margin-left: 8.5rem
+}
+
+.forms-beneficiario form input::placeholder{
+    color: black;
+}
+.forms-beneficiario form label{
+    color: var(--cor-principal);
+    font-weight: var(--font-weight-destaque);
+    padding-block: .5rem;
+}
+.forms-beneficiario .form-title{
+    color: var(--cor-principal);
+    font-weight: var(--font-weight-forte);
+}
+.forms-beneficiario form input{
+    width: 15rem;
+    margin: 0;
+    padding:0;
+    background: #FFFFFF;
+    border: 1px solid #bebdbd;
+    border-radius: 5px;
+    height: 2rem;
+    font-size: .9rem;
+    padding-inline: 10px;
+    font-weight: var(--font-weight-leve);
+}
+
+.forms-beneficiario form{
+    margin-block: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.forms-beneficiario form .flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.forms-beneficiario .info{
+    justify-content: space-around;
+}
+
+.line{
+    background-color: #9CA1AD;
+    width: 80%;
+    height: 2px;
+    align-self: center;
+    margin-top: 1.5rem;
+}
+
+/* -------------------------------------- */
+
+.table-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 8rem;
+    margin-top: 3rem;
+}
+.table-title .filtrar i{
+    padding-right: 5px;
+}
+table{
+    width: 85%;
+    margin-inline: 5rem;
+}
+th{
+    background-color: var(--cor-principal);
+    color: white;
+    font-weight: var(--font-weight-destaque);
+    font-size: 1.1rem;
+    height: 2rem;
+}
+td{
+    font-weight: var(--font-weight-destaque);
+    border-bottom: 1px solid;
+    margin: 0;
+    padding: 0;
+    border-color: #9CA1AD;
+    text-align: left;
+    padding-inline-start: 1rem;
+}
+
+td p{
+    display: flex;
+    flex-direction: column;
+}
+
+td p span{
+    font-weight: 300;
+    font-size: .9rem;
+    margin-top: .2rem;
+}
+td.date{
+    font-weight: normal;
+    padding: 0;
+    text-align: center;
+}

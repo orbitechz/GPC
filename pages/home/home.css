@@ -1,214 +1,245 @@
-@import url("https://grupo09-projeto-integrador.github.io/GPC/css/main.css");
-
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-}
-
-.containerr{
-    display: flex;
-    flex-direction: row;
-
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 }
 
 /* POP-UP GENRERAL CSS */
 
-.popUp{
-    box-sizing: border-box;
-    width: 650px;
-    height: 290px;
-    background-color: #fff;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 999;
-}
-
-.popUp .modal{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 70px;
-}
-
-.popUp .modal i {
-    align-self: flex-start;
-    float: right;
-    margin-top: 7px;
-    margin-right: 20px;
-    padding: 3px;
-    background-color: #E5E5E5 ;
-    border-radius: 30px;
-    cursor: pointer;
+.popUp {
+  width: 550px;
+  height: 190px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  -webkit-box-shadow: 7px -2px 26px -3px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 7px -2px 26px -3px rgba(0, 0, 0, 0.6);
+  box-shadow: 7px -2px 26px -3px rgba(0, 0, 0, 0.6);
 }
 
 .show {
-    display: none;
+  display: none;
 }
 
-.notify{
-    margin-left: 70px;
-    margin-top: 30px;
-    text-align: center;
-    width: 500px;
-    height: 84px;
-    border-radius: 8px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+.popUp .modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-.notify li {
-    list-style: none;
+.popUp .modal .con p {
+  font-family: Inter;
+  font-size: 20px;
 }
 
-.wrap {
-    display: grid;
+.popUp .modal .btns {
+  display: flex;
+  gap: 30px;
 }
 
-nav{
-    width: 200px;
+.popUp .modal .btns button {
+  align-self: center;
+  margin-top: 8px;
+  background: #f7a81b;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Inter";
+  width: 150px;
+  height: 38px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
 }
 
+.body-content {
+  display: flex;
+  flex-direction: column;
+}
 
 /* CAIXAS-DASHBOARD */
 
-.container{
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 35px;
-    margin-right: 40px;
-} 
+.container {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 35px;
+  margin-right: 60px;
+  margin-left: 20px;
+}
 
 .container .elemento {
-    width: 196px;
-    height: fit-content;
-    font-family: 'Roboto' , sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 196px;
+  height: fit-content;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.elemento .interAlign{
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 10px;
+.elemento .interAlign {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
 }
-
 
 .elemento .interAlign .quantidade {
-    align-self: center;
-    text-indent: 5px;
-    font-weight: bolder;
-    font-size: 64px;
-    text-indent: 7px;
+  align-self: center;
+  text-indent: 5px;
+  font-weight: bolder;
+  font-size: 64px;
+  text-indent: 7px;
 }
 
-.elemento .nome{
-    text-align: center;
-    
+.elemento .nome {
+  text-align: center;
 }
 
-hr{
-    margin-right: 50px;
+hr {
+  margin-left: 20px;
+  margin-right: 50px;
 }
 /* ////////////////// */
 
-
-.dashTables{
-    height: 330px;
-    margin-bottom: 30px;
-    align-items: flex-end;
-    display: inline-flex;
-    gap: 140px;
+.dashTables {
+  height: 330px;
+  margin-bottom: 30px;
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 100px;
+  margin-left: 20px;
 }
 
 .ativosAtraso {
-    box-sizing: border-box;
-    height: 300px;
-    background: #fff;
-    border: 1px solid #E0E2E7;
-    border-collapse: collapse;
+  box-sizing: border-box;
+  height: 300px;
+  background: #fff;
+  border: 1px solid #e0e2e7;
+  border-collapse: collapse;
 }
 
-.tableHeader{
-    font-family: 'Inter', sans-serif;
-    color: #fff;
-    background-color: #0067C8;
-    width: 300px;
-    line-height: 2px;
-    text-align: initial;
-    text-indent: 5px;
+.tableHeader {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background-color: #0067c8;
+  width: 300px;
+  line-height: 2px;
+  text-align: initial;
+  text-indent: 5px;
 }
 
-.ativosAtraso td , .ativosAtraso th{
-    border: 1px solid #E0E2E7;
+.ativosAtraso td,
+.ativosAtraso th {
+  border: 1px solid #e0e2e7;
 }
 
 .ativosAtraso td p {
-    font-family: 'Inter';
-    font-weight: 550;
-    font-size: 17px;
-    line-height: 5px;
-    margin-top: 5px;
-    text-indent: 5px;
+  font-family: "Inter";
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 5px;
+  margin-top: 5px;
+  text-indent: 5px;
 }
 
 .ativosAtraso td span {
-    font-weight: 400;
-    font-size: 14px;
-    margin-left: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 5px;
 }
 
-.recemCadastros{
-    box-sizing: border-box;
-    height: 300px;
-    width: 600px;
-    background: #fff;
-    border: 1px solid #E0E2E7;
-    border-collapse: collapse;
+.recemCadastros {
+  box-sizing: border-box;
+  height: 300px;
+  width: 600px;
+  background: #fff;
+  border: 1px solid #e0e2e7;
+  border-collapse: collapse;
 }
 
 .tableHeaderOne {
-    font-family: 'Inter', sans-serif;
-    color: #fff;
-    background-color: #0067C8;
-    line-height: 35px;
-    text-align: start;
-    text-indent: 5px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background-color: #0067c8;
+  line-height: 35px;
+  text-align: start;
+  text-indent: 5px;
 }
 
-.recemCadastros td , .recemCadastros th {
-    border: 1px solid #E0E2E7;
+.recemCadastros td,
+.recemCadastros th {
+  border: 1px solid #e0e2e7;
 }
 
 .recemCadastros td p {
-    font-family: 'Inter';
-    font-weight: 550;
-    font-size: 17px;
-    line-height: 5px;
-    margin-top: 5px;
-    text-indent: 5px;
+  font-family: "Inter";
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 5px;
+  margin-top: 5px;
+  text-indent: 5px;
 }
 
 .recemCadastros td span {
-    font-weight: 400;
-    font-size: 14px;
-    margin-left: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 5px;
 }
 
 .recemCadastros td i {
-    margin-left: 60px;
-    font-size: 19px;
-    color: #0067C8;
+  cursor: pointer;
+  margin-left: 60px;
+  font-size: 19px;
+  color: #0067c8;
 }
 
+/* RESPONSIVITY */
+
+@media (max-width: 1140px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  hr {
+    margin-top: 180px;
+  }
+
+  .dashTables {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .dashTables {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  hr {
+    margin-top: 300px;
+  }
+
+  .dashTables {
+    gap: 30px;
+  }
+}
