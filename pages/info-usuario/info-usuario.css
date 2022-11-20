@@ -1,28 +1,50 @@
+*{
+    font-family: var(--font-principal);
+}
+
 .body-content{
     width: 100%;
 }
 
-.forms-beneficiario{
+.forms-beneficiario,
+.forms-beneficiario form,
+.forms-beneficiario .info{
     display: flex;
     flex-direction: column;
 }
 
 .forms-beneficiario .form-title{
     align-self: flex-start;
-    margin-left: 9rem;
+    margin-left: 8.5rem
 }
 
+.forms-beneficiario form input::placeholder{
+    color: black;
+}
+.forms-beneficiario form label{
+    color: var(--cor-principal);
+    font-weight: var(--font-weight-destaque);
+    padding-block: .5rem;
+}
+.forms-beneficiario .form-title{
+    color: var(--cor-principal);
+    font-weight: var(--font-weight-forte);
+}
 .forms-beneficiario form input{
     width: 15rem;
     margin: 0;
     padding:0;
-
+    background: #FFFFFF;
+    border: 1px solid #bebdbd;
+    border-radius: 5px;
+    height: 2rem;
+    font-size: .9rem;
+    padding-inline: 10px;
+    font-weight: var(--font-weight-leve);
 }
 
 .forms-beneficiario form{
-    margin-block: 5rem;
-    display: flex;
-    flex-direction: column;
+    margin-block: 3rem;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -38,8 +60,6 @@
 }
 
 .forms-beneficiario .info{
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -48,4 +68,5 @@
     width: 80%;
     height: 2px;
     align-self: center;
+    margin-top: 1.5rem;
 }
