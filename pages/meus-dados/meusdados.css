@@ -1,169 +1,114 @@
-  h1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.5vw;
-    font-weight: 400;
+:root {
+  --cor-azul: #0067c8;
+  --cor-botao: #f7a81b;
+}
 
+.body-content {
+  display: flex;
+  flex-direction: column;
+}
+/* /----------------/ */
+.content-header {
+  margin-left: 40px;
+  display: grid;
+  width: 40px;
+  height: 200px;
+}
+
+.content-tables {
+  display: grid;
+  row-gap: 50px;
+}
+
+.header-path .pathWay {
+  font-family: Inter;
+  font-size: 1.563rem;
+  line-height: 24px;
+  text-align: left;
+}
+
+.header-path .pathWay a {
+  text-decoration: none;
+  color: #232325;
+}
+
+/* /----------------/ */
+.content {
+  align-items: center;
+}
+.content .colone {
+  display: flex;
+  gap: 30px;
+}
+
+.content .coltwo {
+  display: flex;
+  gap: 30px;
+}
+
+.content .colthree {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+input {
+  height: 29px;
+  width: 263px;
+
+  padding: 0px 20px 0px 20px;
+
+  background: #f5f5f5;
+  border: 1px solid #808192;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-dados h4{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: var(--cor-azul);
+}
+
+button {
+  height: 36px;
+  width: 134px;
+  border: 1px solid #ffffff;
+  background-color: var(--cor-botao);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.email input{
+  width: 602px;
+}
+
+.cargo input{
+  width: 600px;
+}
+
+@media (max-width:880px) {
+  .content .colone{
+    flex-direction: column;
   }
 
-  :root{
-
-    --cor-azul: #0067C8;
-    --cor-botao: #F7A81B;
+  .content .coltwo{
+    flex-direction: column;
   }
 
-  .content{
-    display: flex;
-    width: 50%;
-    margin-top: 9vw;
-    margin-left: -6vw;
-
-    
+  .email input{
+    width: 263px;
   }
 
-    input {
-      background: #F5F5F5;
-      border: 1px solid #808192;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.1);
-      
+  .content .colthree {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    }
-
-    .input-dados {
-
-      width: 9vw;
-      height: 10vw;
-      flex-direction: row;
-      margin-left: 15vw;  
-      
-      
-    }
-    .input-dados input{
-      position: relative;
-      width: 20vw;
-      padding: 0.5vw 1vw;
-      margin: 0.5vw;
-      box-sizing: border-box;
-      
-    }
-
-    .input-dados .maiores input{
-
-        position: relative;
-        width: 45vw;
-        padding: 0.5vw 1vw;
-        margin: 0.5vw;
-        box-sizing: border-box;
-    }
-
-    .input-dados2 {
-
-      width: 8vw;
-      height: 10vw;
-      flex-direction: row;
-      margin-left: 15vw;  
-    }
-    .input-dados2 input{
-      position: relative;
-      width: 20vw;
-      padding: 0.5vw 1vw;
-      margin: 0.5vw;
-      box-sizing: border-box;
-
-    }
-
-    .input-menor{
-
-      margin-left: 15vw;
-
-
-    }
-
-    .input-menor input {
-      position: relative;
-      width: 20vw;
-      padding: 0.5vw 1vw;
-      margin: 0.5vw;
-      box-sizing: border-box;
-      }
+  .cargo input{
+    width: 263px;
+  }
   
-
-      .input-menor a {
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        font-size: 1vw;
-        font-family: 'Inter', sans-serif;
-
-        width: 18vw;
-        padding: 0.5vw 1vw;
-        margin: 0.5vw;
-        border: none;
-        margin-top: 4.4vw;
-
-        background-color: var(--cor-botao);
-        color: white;
-
-      }
-
-
-    
-  .input-maior input {
-    position: relative;
-    width: 30vw;
-    padding: 0.5vw 1vw;
-    margin: 0.5vw;
-    box-sizing: border-box;      
-  }  
-  
-  .content h4 {
-    font-family: 'Inter', sans-serif;
-    color: var(--cor-azul);
-
-  }
-
-
-  @media screen and (max-width: 769px) {
-    .content h4 {
-      font-family: 'Inter', sans-serif;
-      color: var(--cor-azul);
-      font-size: 1.5vw;
-    }
-  
-    .input-dados{
-
-      margin-top: 12vw;
-
-    }
-
-    .input-dados2{
-
-      margin-left: -8vw;
-
-    }
-
-    .input-menor{
-      margin-top: 46vw;
-      margin-left: -8vw;
-    }
-
-    .input-menor a {
-      display: flex;
-      justify-content: center;
-      text-decoration: none;
-      font-size: 1vw;
-      font-family: 'Inter', sans-serif;
-
-      width: 18vw;
-      padding: 0.7vw 1vw;
-      margin: 0.5vw;
-      border: none;
-      margin-top: 4.4vw;
-
-      background-color: var(--cor-botao);
-      color: white;
-
-    }
-
-
-
-  }
+}
