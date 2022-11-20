@@ -98,14 +98,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
-    gap: 1.15vh;
+    gap: 1vw;
 
 }
 
 .container .content input {
 
-    width: 21.96vw;
-    height: 4.78px;
+    width: 30vw;
+    height: 4.78vh;
     box-sizing: border-box;
     flex-direction: row;
     align-items: center;
@@ -122,22 +122,22 @@ input:focus{
 input::placeholder{
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
-    line-height: 22px;
+    font-size: 1vw;
+    line-height: 3.2vw;
     color: rgba(92, 92, 92, 0.6);
 }
 
 #cep {
-    width: 138px;
+    width: 10vw;
 }
 
 #num{
-    width: 138px;
+    width: 10vw;
 }
 
 #adress 
 {
-    width: 375px;
+    width: 22vw;
 }
 
 
@@ -147,10 +147,10 @@ input::placeholder{
     background-color: #F7A81B ;
     color: #fff;
     font-weight: 700;
-    line-height: 4px;
+    line-height: 1vh;
     border: none;
-    width: 220px;
-    height: 30px;
+    width: 16vw;
+    height: 4.5vh;
     cursor: pointer;
 }
 
