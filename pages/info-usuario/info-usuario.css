@@ -1,7 +1,10 @@
 *{
     font-family: var(--font-principal);
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .body-content{
     width: 100%;
 }
@@ -69,4 +72,53 @@
     height: 2px;
     align-self: center;
     margin-top: 1.5rem;
+}
+
+/* -------------------------------------- */
+
+.table-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 8rem;
+    margin-top: 3rem;
+}
+.table-title .filtrar i{
+    padding-right: 5px;
+}
+table{
+    width: 85%;
+    margin-inline: 5rem;
+}
+th{
+    background-color: var(--cor-principal);
+    color: white;
+    font-weight: var(--font-weight-destaque);
+    font-size: 1.1rem;
+    height: 2rem;
+}
+td{
+    font-weight: var(--font-weight-destaque);
+    border-bottom: 1px solid;
+    margin: 0;
+    padding: 0;
+    border-color: #9CA1AD;
+    text-align: left;
+    padding-inline-start: 1rem;
+}
+
+td p{
+    display: flex;
+    flex-direction: column;
+}
+
+td p span{
+    font-weight: 300;
+    font-size: .9rem;
+    margin-top: .2rem;
+}
+td.date{
+    font-weight: normal;
+    padding: 0;
+    text-align: center;
 }
