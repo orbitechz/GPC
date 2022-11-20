@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--bg-principal);
+}
+
+.listar {
+    font-size: 2.92vw;
+    text-align: left;
+    margin-top: 1.43vh;
+    padding-top: 2.92vw;
+    padding-left: 1.43vw;
+
+}
+
+
+@keyframes animation-button{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+    .top-btn:hover{
+    background-image: linear-gradient(15deg,#F7A81B,#f3c436);
+    animation-name: animation-button;
+    animation-duration: 0.5s;
+    animation-timing-function: eases-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+.top-btn {
+    user-select: none;
+    cursor: pointer;
+    width: 16vw;
+    height: 4.31vh;
+    background-color: var(--botao-secundario);
+    color: var(--text-secundario);
+    border: none;
+    font-size: 1.31vw;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 1.43vh;
+    transition: none;
+}
+
+.actived{
+    box-shadow: none;
+    color: white;
+    background-color: var(--botao-principal);
+    transition: background-color 0.4s ease-in;
+    
+}
+.actived{
+    box-shadow: none;
+    color: white;
+    background-color: var(--cor-secundario);
+    transition: background-color 0.4s ease-in;
+    
+}
+
+.container .title{
+
+    font-size: 1.1vw;
+    font-weight: 600;
+    line-height: 2.48vw;
+    margin-left: 1.1vw;
+    padding: 1vh;
+
+}
+
+
+
+
+
+
+.content form{
+    margin: 1em ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4.31vh;
+}
+
+.content form .inputInbox{
+    padding: 4.31vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 1vw;
+
+}
+
+.container .content input {
+
+    width: 30vw;
+    height: 4.78vh;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 16px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 4px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 3.2vw;
+    color: rgba(92, 92, 92, 0.6);
+}
+
+#cep {
+    width: 10vw;
+}
+
+#num{
+    width: 10vw;
+}
+
+#adress 
+{
+    width: 22vw;
+}
+
+
+.btn{
+    text-align: center;
+    border-radius: 0%;
+    background-color: #F7A81B ;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1vh;
+    border: none;
+    width: 16vw;
+    height: 4.5vh;
+    cursor: pointer;
+}
+
+.flex-end{
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+hr{
+    display: block;
+    width: 600px ;
+    border: 0;
+    border-top: 1px solid #C3C3B5 ;
+    margin: 1em -2px;
+    padding: 0;
+}
+/*///////////////////////////////////////////////////////////////*/
+
+
+.table-list thead{
+    background-color: #0067C8;
+    color: #fff;
+    font-size: 2vw;
+    height: 50px;
+    text-align:center;
+    
+}
+
+.table-header{
+    width: 10000px;
+    
+}
+
+.inserts-table{
+    font-size: 1vw;
+    padding-left: 2vw;
+    text-align: center;
+    color: #000000;
+    font-family: 'Inter';
+}
+
+.table-name{
+    font-size: 1vw;
+    
+    
+}
+
+.link-image{
+    margin-bottom: -5px;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+
+
+footer button{
+    background-color: #F32D2D;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    padding: 1vh;
+    user-select: none;
+    cursor: pointer;
+    width: 16vw;
+    height: 4.31vh;
+    border: none;
+    
+}
+
+.pdf-image{
+    padding-right: 1vw;
+}
+/*---------------------------------------------*/
+
+.body-content p{
+    font-size: 1.5vw;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    
+    
+}
