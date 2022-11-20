@@ -1,4 +1,51 @@
 .body-content{
-    background-color: red;
+    width: 100%;
 }
 
+.forms-beneficiario{
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-beneficiario .form-title{
+    align-self: flex-start;
+    margin-left: 9rem;
+}
+
+.forms-beneficiario form input{
+    width: 15rem;
+    margin: 0;
+    padding:0;
+
+}
+
+.forms-beneficiario form{
+    margin-block: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.forms-beneficiario form .flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.forms-beneficiario .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line{
+    background-color: #9CA1AD;
+    width: 80%;
+    height: 2px;
+    align-self: center;
+}
