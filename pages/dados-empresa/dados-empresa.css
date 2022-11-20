@@ -1,0 +1,61 @@
+.body-content{
+    width: 100%;
+}
+
+h2{
+    color: rgb(74, 74, 74);
+    margin-bottom: 3rem;
+}
+
+h2.heading {
+    font-size: 1.25rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.line{
+    width: 100%;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    align-self: center;
+    margin-top: 5rem;
+}
+
+.path i{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+#configs input{
+    margin: 0;
+    padding:0;
+    background: #FFFFFF;
+    border: 1px solid #bebdbd;
+    border-radius: 5px;
+    font-size: .9rem;
+    padding-inline: 10px;
+    font-weight: var(--font-weight-leve);
+    width: 15rem;
+    height: 2rem;
+}
+
+
+#configs label{
+    color: var(--cor-principal);
+    font-weight: var(--font-weight-destaque);
+    font-size: 1rem;
+    padding-inline: .5rem;
+}
+
+#configs-empresa-logo{
+    height: 10rem;
+}
