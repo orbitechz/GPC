@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="info-usuario.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>GPC - Usuário</title>
+  </head>
+  <body>
+    <div class="body-content">
+      <div class="forms-beneficiario">
+        <form id="form-cadastro-beneficiario">
+          <h2 class="form-title">Beneficiário</h2>
+          <div class="flexbox">
+            <div class="info">
+              <label for="cadastro-beneficiario-nome">Nome Completo:</label>
+              <input
+                id="cadastro-beneficiario-nome"
+                placeholder="João da Silva"
+                type="text"
+              />
+            </div>
+
+            <div class="info">
+              <label for="cadastro-beneficiario-documento">Documento:</label>
+              <input
+                placeholder="000.000.000-00"
+                id="cadastro-beneficiario-documento"
+                type="text"
+              />
+            </div>
+
+            <div class="info">
+              <label for="cadastro-beneficiario-endereco">Endereço:</label>
+              <input
+                placeholder="Rua Rotary, 100"
+                id="cadastro-beneficiario-endereco"
+                type="text"
+              />
+            </div>
+          </div>
+
+          <div class="flexbox">
+            <div class="info">
+              <label for="cadastro-beneficiario-nascimento"
+                >Data de Nascimento:</label
+              >
+              <input id="cadastro-beneficiario-nascimento" type="date" />
+            </div>
+
+            <div class="info">
+              <label for="cadastro-beneficiario-email">E-mail:</label>
+              <input
+                placeholder="usuario@dominio.com"
+                id="cadastro-beneficiario-email"
+                type="email"
+              />
+            </div>
+
+            <div class="info">
+              <label for="cadastro-beneficiario-telefone">Telefone:</label>
+              <input
+                placeholder="(00) 0000-0000"
+                id="cadastro-beneficiario-telefone"
+                type="text"
+              />
+            </div>
+          </div>
+        </form>
+
+        <div class="line"></div>
+
+        <form id="form-cadastro-responsavel">
+          <h2 class="form-title">Responsável</h2>
+          <div class="flexbox">
+            <div class="info">
+              <label for="cadastro-responsavel-nome">Nome Completo:</label>
+              <input
+                placeholder="João da Silva"
+                id="cadastro-responsavel-nome"
+                type="text"
+              />
+            </div>
+
+            <div class="info">
+              <label for="cadastro-responsavel-documento">Documento:</label>
+              <input
+                placeholder="000.000.000-00"
+                id="cadastro-responsavel-documento"
+                type="text"
+              />
+            </div>
+
+            <div class="info">
+              <label for="cadastro-responsavel-endereco">Endereço:</label>
+              <input
+                placeholder="Rua Rotary, 100"
+                id="cadastro-responsavel-endereco"
+                type="text"
+              />
+            </div>
+          </div>
+
+          <div class="flexbox">
+            <div class="info">
+              <label for="cadastro-responsavel-nascimento"
+                >Data de Nascimento:</label
+              >
+              <input id="cadastro-responsavel-nascimento" type="date" />
+            </div>
+
+            <div class="info">
+              <label for="cadastro-responsavel-email">E-mail:</label>
+              <input
+                placeholder="usuario@dominio.com"
+                id="cadastro-responsavel-email"
+                type="email"
+              />
+            </div>
+
+            <div class="info">
+              <label for="cadastro-responsavel-telefone">Telefone:</label>
+              <input
+                placeholder="(00) 0000-0000"
+                id="cadastro-responsavel-telefone"
+                type="text"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="line"></div>
+      </div>
+
+
+      <div class="table">
+        <div class="table-title">
+          <h2>Histórico de empréstimo</h2>
+          <div class="filtrar"><a href="#"><i class="bi bi-funnel-fill"></i>Filtrar</a></div>
+        </div>
+
+
+        <table>
+          <thead>
+            <tr>
+                <th scope="col">Ativo</th>
+                <th scope="col">Data Inicial</th>
+                <th scope="col">Data Final</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+            <p>Cadeira de Rodas<span class="id" id="id-ativo">11023</span> </p></td>
+            <td class="date">21/11/2021</td>
+            <td class="date">21/11/2022</td>
+          </tr>
+          <tr>
+            <td>
+            <p>Muleta<span class="id" id="id-ativo">11024</span> </p></td>
+            <td class="date">21/11/2021</td>
+            <td class="date">21/04/2022</td>
+          </tr>
+          <tr>
+            <td>
+            <p>Bota ortopédica<span class="id" id="id-ativo">9321</span> </p></td>
+            <td class="date">21/11/2021</td>
+            <td class="date">19/01/2022</td>
+          </tr>
+        </tbody>    
+      </table>
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
