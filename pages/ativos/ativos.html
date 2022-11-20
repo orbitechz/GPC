@@ -1,158 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ativos</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
     <!-- FONTS -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="ativos.css" />
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="ativos-emprestar.css" />
+</head>
+<body>
     <div class="body-content">
+        <div class="contentActives">  <!-- PODE APAGAR E SUBSITUIR POR SEU CONTEUDO -->
+          
+          <h1>Ativos</h1>
+          <hr>
 
-      <section class="content">
-        <h1>Ativos</h1>
-        <form action="">
-          <label for="">Buscar Ativo</label>
-          <input type="date" />
-          <button>Buscar</button>
-        </form>
-  
-        <div class="lineBlue">
-          <ul>
-            <li>Usadas</li>
-            <li>Ações</li>
-          </ul>
-        </div>
-  
-        <main>
-          <div class="used">
+          <div class="formActives">
+            <div>
+              <input type="text" placeholder="buscar"/>
+              <button>Buscar</button>
+            </div>
+          </div>
+          
+          <div class="lineBlue">
             <ul>
-              <li>Cadastros 3 set</li>
-              <li>#988474</li>
-              <li><button>Disponível</button></li>
-            </ul>
-            <ul>
-              <li>Cadastros 3 set</li>
-              <li>#988474</li>
-              <li><button>Disponível</button></li>
-            </ul>
-            <ul>
-              <li>Cadastros 3 set</li>
-              <li>#988474</li>
-              <li><button>Disponível</button></li>
-            </ul>
-            <ul>
-              <li>Cadastros 3 set</li>
-              <li>#988474</li>
-              <li><button>Disponível</button></li>
+              <li>Usadas</li>
+              <li>Ações</li>
             </ul>
           </div>
-  
-          <div class="allCategories">
+          
+          <div class="formActives">
+            <div>
+                <label for="">Benificário</label>
+                <input type="text" placeholder="José da Silva"/>
+                <button>Disponível</button>
+            </div>
+
+            <div>
+              <label for="">Acoes</label>
+              <input type="text" placeholder="José da Silva"/>
+              <button>Visualizar</button>
+              <button>Emprestar</button>
+          </div>
+          </div>
+
+
+          <div class="lineBlue">
             <ul>
-              <li>Cadeira nova - nova</li>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-unlock"></i> Emprestar
-                </button>
-              </li>
-            </ul>
-            <ul>
-              <li>Cadeira nova - nova</li>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-unlock"></i> Emprestar
-                </button>
-              </li>
-            </ul>
-            <ul>
-              <li>Cadeira nova - nova</li>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-unlock"></i> Emprestar
-                </button>
-              </li>
-            </ul>
-            <ul>
-              <li>Cadeira nova - nova asd</li>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-unlock"></i> Emprestar
-                </button>
-              </li>
+              <li>Todas as CAtegorias</li>
+              <li>Última alteração</li>
+              <li>Ações</li>
             </ul>
           </div>
-        </main>
-  
-        <div class="lineBlue">
-          <ul>
-            <li>Todas as Categorias</li>
-            <li>Últimas alterações</li>
-            <li>Ações</li>
-          </ul>
-        </div>
-  
-        <main class="latestChanges">
-          <div class="categories">
-            <ul>
-              <li>Cadastros 3 set</li>
-            </ul>
+          
+          <div class="formActives">
+            <div>
+                <input type="text" placeholder="José da Silva"/>
+                <button class="btnDisponivel">Visualizar</button>
+            </div>
+
+            <div>
+              <input type="text" placeholder="ontem"/>
+              <button class="btnDisponivel">Visualizar</button>
+            </div>
+
+            <div>
+              <button class="btnDisponivelRED">Visualizar</button>
+              <button>Emprestar</button>
+            </div>
           </div>
-  
-          <div class="changes">
-            <ul>
-              <li>Cadastros 3 set</li>
-            </ul>
-          </div>
-  
-          <div class="actions">
-            <ul>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-arrow-down"></i> Emprestar
-                </button>
-              </li>
-            </ul>
-          </div>
-        </main>
-      </section>
+        
+
+
+        </div> <!-- PODE APAGAR E SUBSITUIR POR SEU CONTEUDO -->
     </div>
-    <script src="/js/main.js"></script>
-  </body>
+    <script src="/js/main.js"></script>    
+</body>
 </html>
