@@ -78,17 +78,9 @@ body {
 
 }
 
-.container form .title .hr1 {
-    margin-top: 1vh;
-    border: 0.5px solid #C3C3B5;
-    background-color: #C3C3B5;
-    width: 1111px;
 
-}
 
-.container form .title .hr1 {
-    margin-right: 70px;
-}
+
 
 
 .content form{
@@ -96,24 +88,24 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 4.31vh;
 }
 
 .content form .inputInbox{
-    padding: 30px;
+    padding: 4.31vh;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
-    gap: 8px;
+    gap: 1.15vh;
 
 }
 
 .container .content input {
 
-    width: 300px;
-    height: 33px;
+    width: 21.96vw;
+    height: 4.78px;
     box-sizing: border-box;
     flex-direction: row;
     align-items: center;
