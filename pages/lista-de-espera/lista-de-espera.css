@@ -12,11 +12,11 @@ body {
 }
 
 .listar {
-    font-size: 40px;
+    font-size: 2.92vw;
     text-align: left;
-    margin-top: 10px;
-    padding-top: 40px;
-    padding-left: 20px;
+    margin-top: 1.43vh;
+    padding-top: 2.92vw;
+    padding-left: 1.43vw;
 
 }
 
@@ -41,15 +41,15 @@ body {
 .top-btn {
     user-select: none;
     cursor: pointer;
-    width: 220px;
-    height: 30px;
+    width: 16vw;
+    height: 4.31vh;
     background-color: var(--botao-secundario);
     color: var(--text-secundario);
     border: none;
-    font-size: 18px;
+    font-size: 1.31vw;
     font-weight: bold;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    margin: 10px;
+    margin: 1.43vh;
     transition: none;
 }
 
@@ -70,16 +70,16 @@ body {
 
 .container .title{
 
-    font-size: 15px ;
+    font-size: 1.1vw;
     font-weight: 600;
-    line-height: 34px;
-    margin-left: 15px;
-    padding: 4px;
+    line-height: 2.48vw;
+    margin-left: 1.1vw;
+    padding: 1vh;
 
 }
 
 .container form .title .hr1 {
-    margin-top: 5px;
+    margin-top: 1vh;
     border: 0.5px solid #C3C3B5;
     background-color: #C3C3B5;
     width: 1111px;
