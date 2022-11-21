@@ -1,15 +1,15 @@
 let theBox = document.querySelectorAll(".elemento");
 let theQuantity = document.querySelectorAll(".quantidade");
 let theName = document.querySelectorAll(".nome");
-let thePopUp = document.querySelector(".popUp");
+let thePopUp = document.querySelector(".popUpDel");
 let closePopUp = document.querySelector("i");
 let theCont = document.querySelector(".containerr");
 let theNotif = document.querySelector(".notify");
 let tablesRows = document.querySelectorAll(".dinamic");
 let trashBin = document.querySelectorAll(".bi-trash3");
 let theBody = document.querySelector("body");
-let btnOne = document.querySelector(".btnOne");
-let btnTwo = document.querySelector(".btnTwo");
+let btnOne = document.querySelector(".btnOneDel");
+let btnTwo = document.querySelector(".btnTwoDel");
 
 const apiSmaple = [
   {

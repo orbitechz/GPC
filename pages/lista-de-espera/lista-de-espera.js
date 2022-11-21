@@ -10,7 +10,7 @@ const btnRegister = document.getElementById("register");
 // - when the 'Listar' btn is clicked ==> display : none is added to the secound section
 // - when the 'Cadastrar Novo' btn is clicked ==> display : none is added to the first section
 
-let sectionCadastro = document.querySelector(".cadastro");
+let sectionCadastro = document.querySelector(".cadas");
 let sectionListar = document.querySelector(".listar");
 let submitFormsBtn = document.querySelector("#submitForms");
 

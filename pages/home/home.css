@@ -8,51 +8,49 @@ body {
 
 /* POP-UP GENRERAL CSS */
 
-.popUp {
-  width: 550px;
-  height: 190px;
-  background-color: #fff;
+.popUpDel {
+  width: 450px;
+  height: 100px;
   position: fixed;
+  border-radius: 10px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 99;
-  -webkit-box-shadow: 7px -2px 26px -3px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 7px -2px 26px -3px rgba(0, 0, 0, 0.6);
-  box-shadow: 7px -2px 26px -3px rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(#a1d0fb,#0067C8 );
+  filter: drop-shadow(8px 8px 8px #000 );
 }
 
 .show {
   display: none;
 }
 
-.popUp .modal {
+.popUpDel .modalDel{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
-.popUp .modal .con p {
+.popUpDel .modalDel .con p {
   font-family: Inter;
   font-size: 20px;
 }
 
-.popUp .modal .btns {
+.popUpDel .modalDel .btnsDel {
   display: flex;
   gap: 30px;
 }
 
-.popUp .modal .btns button {
+.popUpDel .modalDel .btnsDel button {
   align-self: center;
-  margin-top: 8px;
   background: #f7a81b;
-  border: 1px solid #ffffff;
+  border: none;
+  border-radius: 5px;
   color: #ffffff;
   font-family: "Inter";
-  width: 150px;
-  height: 38px;
+  width: 130px;
+  height: 30px;
   font-size: 18px;
   text-align: center;
   cursor: pointer;
@@ -70,15 +68,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   margin-top: 35px;
-  margin-right: 60px;
-  margin-left: 20px;
+  margin-right: 30px;
 }
 
 .container .elemento {
-  width: 196px;
-  height: fit-content;
+  width: 205px;
   font-family: "Roboto", sans-serif;
   color: #fff;
   text-transform: uppercase;
@@ -90,14 +86,14 @@ body {
 .elemento .interAlign {
   display: grid;
   grid-template-columns: auto auto;
-  column-gap: 10px;
+  column-gap: 8px;
 }
 
 .elemento .interAlign .quantidade {
   align-self: center;
-  text-indent: 5px;
+  text-indent: 2px;
   font-weight: bolder;
-  font-size: 64px;
+  font-size: 62px;
   text-indent: 7px;
 }
 

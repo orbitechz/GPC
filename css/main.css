@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
    
 /* Variaveis Essenciais de Cores Padrões*/
-
+*{
+    font-family: var(--font-principal);
+}
 body{
     margin: 0;
     padding: 0;
@@ -66,4 +68,12 @@ figure{
     position: relative;
     bottom: 0;
     
+}
+
+.line{
+    background-color: #9CA1AD;
+    width: 80%;
+    height: 2px;
+    align-self: center;
+    margin-top: 1.5rem;
 }
