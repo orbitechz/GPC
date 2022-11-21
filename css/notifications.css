@@ -1,0 +1,90 @@
+.btnOpenModal {
+    font-size: 1em;
+    border: none;
+    background-color: #0067C8;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+.modal-container{
+    width: 140vw;
+    position: fixed;
+    height: 60vh;
+    top: 60px;
+    display: none;
+    z-index: 999;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    flex-direction:  column;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+
+}
+
+.active {
+    display: flex;
+}
+
+.active .modal {
+    animation: modal .4s;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+    
+}
+
+span {
+    margin: 10px auto;
+}
+
+.btns{
+    display: flex;
+    margin-top: 10px;
+    align-items: baseline;
+    position: absolute;
+    bottom: 0px;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btns button{
+    font-size: medium;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.btnClose {
+    background-color: #ff6c6c;
+}
+
+@media (max-width: 500px) {
+    .modal {
+        padding: 10px;
+        width: 80%;
+    }
+
+    span, .btns button{
+        font-size: smaller;
+    }
+}
