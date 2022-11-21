@@ -66,7 +66,7 @@ body.insertAdjacentHTML(
      </div>
 <nav class="logout">
     <ul>
-        <li><a href="../../index.html"><i class="bi bi-box-arrow-right"></i>Logout</a></li>
+        <li><a href="../../index.html"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
     </ul>
 </nav>
 </sidebar>`
