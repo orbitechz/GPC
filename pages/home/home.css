@@ -77,8 +77,7 @@ body {
 }
 
 .container .elemento {
-  width: 196px;
-  height: fit-content;
+  width: 210px;
   font-family: "Roboto", sans-serif;
   color: #fff;
   text-transform: uppercase;
