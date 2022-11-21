@@ -66,14 +66,6 @@ a{
     justify-content: space-around;
 }
 
-.line{
-    background-color: #9CA1AD;
-    width: 80%;
-    height: 2px;
-    align-self: center;
-    margin-top: 1.5rem;
-}
-
 /* -------------------------------------- */
 
 .table-title{
@@ -86,18 +78,18 @@ a{
 .table-title .filtrar i{
     padding-right: 5px;
 }
-table{
+table.table{
     width: 85%;
     margin-inline: 5rem;
 }
-th{
+.table th{
     background-color: var(--cor-principal);
     color: white;
     font-weight: var(--font-weight-destaque);
     font-size: 1.1rem;
     height: 2rem;
 }
-td{
+.table td{
     font-weight: var(--font-weight-destaque);
     border-bottom: 1px solid;
     margin: 0;
@@ -107,17 +99,17 @@ td{
     padding-inline-start: 1rem;
 }
 
-td p{
+.table td p{
     display: flex;
     flex-direction: column;
 }
 
-td p span{
+.table td p span{
     font-weight: 300;
     font-size: .9rem;
     margin-top: .2rem;
 }
-td.date{
+.table td.date{
     font-weight: normal;
     padding: 0;
     text-align: center;
