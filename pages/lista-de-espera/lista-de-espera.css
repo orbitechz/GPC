@@ -2,25 +2,32 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  height: 100%;
 }
 
 nav {
-  width: 247px;
+  width: 227px;
 }
 
 .body-content {
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: auto;
+  gap: 20px;
 }
 
-
 .content-header {
+
   margin-left: 40px;
   display: grid;
-  width: 100%;
+  width: 40px;
   height: 200px;
+}
+
+.content-tables {
+    margin-bottom: 60px;
+  display: grid;
+  row-gap: 50px;
 }
 
 .header-path .pathWay {
@@ -35,9 +42,11 @@ nav {
   color: #232325;
 }
 
-.btns{
-    margin-top: 30px; 
+
+.btns-user{
+    margin-top: 10px; 
     display: flex;
+    margin-left: 30px;
 }
 
 .button-usersList:hover {
@@ -62,42 +71,152 @@ nav {
   margin: 10px;
   transition: none;
 }
+.searchBox{
+    margin-bottom: 30px;
+}
 
+.searchBox .headerBtn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 10px;
+  color: #0067c8;
+}
+
+.searchBox form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.searchBox .input {
+  outline: none !important;
+  width: 270px;
+  height: 25px;
+  padding: 2px 10px;
+  line-height: 1.428571429;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border: 1px groove #808192;
+  margin-top: 10px;
+  align-items: center;
+  font-family: "Inter";
+}
+
+.searchBox .submitBtn {
+  align-self: center;
+  margin-top: 8px;
+  background: #f7a81b;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Inter";
+  width: 100px;
+  height: 28px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
 
 table {
-    margin-right: 50px;
-    margin-top: 30px; 
-    height: auto;
-    max-width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.content-tables table thead tr th {
+  text-align: center;
+  height: 30px;
+  background-color: #0067c8;
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.content-tables table tbody {
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #232325;
+}
+
+.content-tables table tbody td .stated {
+  width: 128px;
+  background-color: #06aa24;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  border: none;
+}
+
+.content-tables table tbody td .state {
+  width: 128px;
+  background-color: #f32d2d;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  border: none;
+}
+
+.content-tables table tbody .box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.content-tables table tbody .box button {
+  padding-left: 15px;
+  font-family: Inter;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.content-tables table tbody .blue {
+  background-color: #0067c8;
+  padding-right: 30px;
+}
+.content-tables table tbody .yellow a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.content-tables table tbody .yellow {
+  background-color: #f7a81b;
+  padding-right: 30px;
+}
+
+.content-tables table tbody .red {
+  background-color: #f32d2d;
+  padding-right: 30px;
+}
+
+
+.red {
+  margin-top: 30px;
+    transform: translate(230%,50%);
+    width: 162px;
+  height: 27px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  background: #F32D2D;
+  border: none;
   }
-  
-  .content-tables table thead tr th {
-    text-align: center;
-    height: 30px;
-    background-color: #0067c8;
-    font-family: "Inter";
-    font-weight: 200;
-    font-size: 18px;
-    color: #ffffff;
-  }
-  
-  .content-tables table tbody {
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
-    color: #232325;
-  }
-  
-  .content-tables table tbody .box {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 15px;
-  }
-  
-  .actived{
+
+.actived{
     box-shadow: none;
     color: white;
     background-color: var(--botao-principal);
@@ -113,8 +232,7 @@ table {
 }
 
 .container .title{
-    font-family: Inter;
-    font-size: 15px ;
+    font-size: 17px ;
     font-weight: 600;
     line-height: 34px;
     margin-left: 15px;
@@ -130,9 +248,6 @@ table {
 
 }
 
-.container form .title .hr1 {
-    margin-right: 70px;
-}
 
 
 .content form{
@@ -140,17 +255,17 @@ table {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 .content form .inputInbox{
-    padding: 60px;
+    padding: 20px;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
-    gap: 3px;
+    gap: 8px;
 
 }
 
@@ -180,8 +295,7 @@ input::placeholder{
 }
 
 #cep {
-    width: 125px;
-    margin-right: 30px;
+    width: 138px;
 }
 
 #num{
@@ -194,7 +308,7 @@ input::placeholder{
 }
 
 
-.btn-userList{
+.btn{
     text-align: center;
     border-radius: 0%;
     background-color: #F7A81B ;
@@ -205,14 +319,9 @@ input::placeholder{
     width: 220px;
     height: 30px;
     cursor: pointer;
-    margin-right: 60px;
 }
 
-.flex-end{
-    display: flex;
-    margin-left: auto;
-    justify-content: flex-end;
-}
+
 
 hr{
     display: block;
@@ -223,28 +332,55 @@ hr{
     padding: 0;
 }
 
-
-.icon span{
-  margin-left: 10px;
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
 
 }
 
-.icon i{
-  font-size: 15px;
+.btn-userList{
+  text-align: center;
+  border-radius: 0%;
+  background-color: #F7A81B ;
+  color: #fff;
+  font-weight: 700;
+  line-height: 4px;
+  border: none;
+  width: 120px;
+  height: 30px;
+  cursor: pointer; 
+
 }
 
-.red {
-margin-top: 30px;
-  transform: translate(230%,50%);
-  width: 162px;
-height: 27px;
-color: #fff;
-font-size: 12px;
-line-height: 16px;
-background: #F32D2D;
-border: none;
+
+@media (max-width: 885px) {
+  table {
+    max-width: 100%;
+  }
+  .content-tables table thead tr th {
+    text-indent: 15px;
+  }
+
+  .content-tables table tbody {
+    text-align: left;
+    text-indent: 5px;
+  }
+  .content-tables table tbody .box {
+    flex-direction: column;
+    width: fit-content;
+    gap: 2px;
+  }
+  .content-tables table tbody .box {
+    align-items: center;
+  }
 }
 
-.red span{
-  margin-left: 10px;
+@media (max-width: 825px) {
+  .content-header {
+    margin-left: 10px;
+  }
+
+  .header-path .pathWay {
+    font-size: 1.3rem;
+  }
 }

@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GPC Rotary - Lista de espera</title>
-    <link rel="stylesheet" href="lista-de-espera.css">
-    
-    
-</head>
-<body>
-   <div class="body-content">
-    <section class="content-header">
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPC - Ativos</title>
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="lista-de-espera.css" />
+  </head>
+  <body>
+    <div class="body-content">
+      <div class="btns-user">
+        <button class="button-usersList" type="submit" id="list">Listar</button>
+        <button class="button-usersList" type="submit" id="register">Cadastrar Novo</button>
+      </div>
+      <section class="listar">
+      <section class="content-header">
         <section class="header-path">
           <p class="pathWay">
             <a href="../relatorios/relatorios.html">Relatórios</a>>><a
@@ -22,16 +35,20 @@
             >
           </p>
           <hr />
-
-          <div class="btns-user">
-            <button class="button-usersList" type="submit" id="list">Listar</button>
-            <button class="button-usersList" type="submit" id="register">Cadastrar Novo</button>
-          </div>
-          
         </section>
 
-        <section class="listar">
-            <section class="content-tables">
+        
+
+        <div class="searchBox">
+          <p class="headerBtn">Buscar</p>
+          <form action="">
+            <input type="text" class="input" placeholder="Buscar" />
+            <input class="submitBtn" type="button" value="Buscar" />
+          </form>
+        </div>
+      </section>
+
+      <section class="content-tables">
         <table>
           <thead>
             <tr>
@@ -71,144 +88,145 @@
               </tr>
           </tbody>
         </table>
-        </section>
         <button class="red"><i class="bi bi-download"></i><span>PDF</span></button>
         </section>
-
-        <section class="cadas">
-            <div class="container">
-                <div class="title">
-                  Cadastro do Beneficiário
-                  <hr />
+      </section>
+      <section class="cadastro">
+        
+          <div class="container">
+            <div class="title">
+              Cadastro do Beneficiário
+              <hr />
+            </div>
+            <div class="content">
+              <form action="#" id="form1">
+                <div class="inputBox">
+                  <span class="details">Nome Completo :</span>
+                  <input
+                    type="text"
+                    name="firstName"
+                    id="firstName"
+                    placeholder="Nome Completo"
+                    required
+                  />
                 </div>
-                <div class="content">
-                  <form action="#" id="form1">
-                    <div class="inputBox">
-                      <span class="details">Nome Completo :</span>
-                      <input
-                        type="text"
-                        name="firstName"
-                        id="firstName"
-                        placeholder="Nome Completo"
-                        required
-                      />
-                    </div>
-      
-                    <div class="inputBox">
-                      <span class="details">CPF/CIC :</span>
-                      <input
-                        type="text"
-                        name="cpf/cic"
-                        id="cpf/cic"
-                        placeholder="xxx.xxx.xxx-xx"
-                        pattern="/d{3}/./d{3}/./d{3}-/d{2}"
-                        required
-                      />
-                    </div>
-      
-                    <div class="inputBox">
-                      <span class="details">RG :</span>
-                      <input
-                        type="text"
-                        name="rg"
-                        id="rg"
-                        placeholder="RG"
-                        required
-                      />
-                    </div>
-      
-                    <div class="inputBox">
-                      <span class="details">Data de Nascimento :</span>
-                      <input
-                        type="date"
-                        name="dateBirth"
-                        id="dateBirth"
-                        placeholder="Data de Nascimento"
-                        required
-                      />
-                    </div>
-      
-                    <div class="inputBox">
-                      <span class="details">CEP :</span>
-                      <input
-                        type="text"
-                        name="cep"
-                        id="cep"
-                        placeholder="CEP"
-                        required
-                      />
-                    </div>
-      
-                    <div class="inputBox">
-                      <span class="details">Endereço :</span>
-                      <input
-                        type="text"
-                        name="adress"
-                        id="adress"
-                        placeholder="Endereço"
-                        required
-                      />
-                    </div>
-      
-                    <div class="inputBox">
-                      <span class="details">N :</span>
-                      <input
-                        type="text"
-                        name="num"
-                        id="num"
-                        placeholder="N"
-                        required
-                      />
-                    </div>
-      
-                    <div class="inputBox">
-                      <span class="details">Complemento :</span>
-                      <input
-                        type="text"
-                        name="comp"
-                        id="comp"
-                        placeholder="Complemento"
-                        required
-                      />
-                    </div>
-      
-                    <div class="inputBox">
-                      <span class="details">Telf :</span>
-                      <input
-                        type="text"
-                        name="tel"
-                        id="tel"
-                        placeholder="Telefone"
-                        required
-                      />
-                    </div>
-      
-                    <div class="inputBox">
-                      <span class="details">E-mail :</span>
-                      <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="E-mail"
-                        required
-                      />
-                    </div>
-
-                    <div class="inputBox">
-                        <span class="details">Ativo Necessitado:</span>
-                        <input type="ativo" name="ativo" id="ativo" placeholder="Ativo Necessitado" required>
-                    </div>
-      
-                    <div class="flex-end">
-                      <button type="submit" class="btn-userList">Adicionar</button>
-                    </div>
-                  </form>
+  
+                <div class="inputBox">
+                  <span class="details">CPF/CIC :</span>
+                  <input
+                    type="text"
+                    name="cpf/cic"
+                    id="cpf/cic"
+                    placeholder="xxx.xxx.xxx-xx"
+                    pattern="/d{3}/./d{3}/./d{3}-/d{2}"
+                    required
+                  />
                 </div>
-              </div>
-        </section>
-   </div>
-   
+  
+                <div class="inputBox">
+                  <span class="details">RG :</span>
+                  <input
+                    type="text"
+                    name="rg"
+                    id="rg"
+                    placeholder="RG"
+                    required
+                  />
+                </div>
+  
+                <div class="inputBox">
+                  <span class="details">Data de Nascimento :</span>
+                  <input
+                    type="date"
+                    name="dateBirth"
+                    id="dateBirth"
+                    placeholder="Data de Nascimento"
+                    required
+                  />
+                </div>
+  
+                <div class="inputBox">
+                  <span class="details">CEP :</span>
+                  <input
+                    type="text"
+                    name="cep"
+                    id="cep"
+                    placeholder="CEP"
+                    required
+                  />
+                </div>
+  
+                <div class="inputBox">
+                  <span class="details">Endereço :</span>
+                  <input
+                    type="text"
+                    name="adress"
+                    id="adress"
+                    placeholder="Endereço"
+                    required
+                  />
+                </div>
+  
+                <div class="inputBox">
+                  <span class="details">N :</span>
+                  <input
+                    type="text"
+                    name="num"
+                    id="num"
+                    placeholder="N"
+                    required
+                  />
+                </div>
+  
+                <div class="inputBox">
+                  <span class="details">Complemento :</span>
+                  <input
+                    type="text"
+                    name="comp"
+                    id="comp"
+                    placeholder="Complemento"
+                    required
+                  />
+                </div>
+  
+                <div class="inputBox">
+                  <span class="details">Telf :</span>
+                  <input
+                    type="text"
+                    name="tel"
+                    id="tel"
+                    placeholder="Telefone"
+                    required
+                  />
+                </div>
+  
+                <div class="inputBox">
+                  <span class="details">E-mail :</span>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="E-mail"
+                    required
+                  />
+                </div>
+
+                <div class="inputBox">
+                    <span class="details">Ativo Necessitado:</span>
+                    <input type="ativo" name="ativo" id="ativo" placeholder="Ativo Necessitado" required>
+                </div>
+  
+                <div class="flex-end">
+                  <button type="submit" class="btn-userList">Adicionar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+
+      </section>
+  </div>
+  <script src="../lista-de-espera/lista-de-espera.js"></script>
     <script src="../../js/main.js"></script>
-    <script src="lista-de-espera.js"></script>
-</body>
+  </body>
 </html>
