@@ -57,6 +57,7 @@ body {
   
   .titlee {
     background-color: #f7a81b;
+    cursor: default;  
   }
   
   .el {

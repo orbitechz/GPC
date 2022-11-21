@@ -50,7 +50,7 @@ body.insertAdjacentHTML(
           <tbody>
             <tr>
               <td class="icon"> <a href="../info-usuario/info-usuario.html"><i class="bi bi-arrow-up-right-square"></i></a><span> João da Silva</span></td>
-              <td>+5578325899-412435</td>
+              <td>325899-412435</td>
               <td>joãodorotary@gmail.com</td>
               <td>#7359879843</td>
               <td>Em 10 dias</td>
