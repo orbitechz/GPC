@@ -1,29 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+:root{
+ margin: 0px;   
+ padding: 0px;
+}
+
+
+
 .btnOpenModal {
     font-size: 1em;
     border: none;
     background-color: #0067C8;
     color: white;
     cursor: pointer;
+    font-family: Inter;
 
 }
 
 
 
 .modal-container{
-    width: 140vw;
+    width: 100vw;
     position: fixed;
     height: 60vh;
     top: 60px;
     display: none;
     z-index: 999;
     justify-content: center;
+    font-family: Inter;
 }
 
 .modal {
     display: flex;
     flex-direction:  column;
     padding: 30px;
-    background-color: white;
+    background-image: linear-gradient(#a1d0fb,#0067C8 );
     border-radius: 10px;
     width: 50%;
 
@@ -87,4 +98,15 @@ span {
     span, .btns button{
         font-size: smaller;
     }
+}
+
+/*----------------------------------------------------------------*/
+table{
+    padding-right: 5vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+.modal h2{
+ color: #fff;
 }

@@ -37,7 +37,27 @@ body.insertAdjacentHTML(
         
             <h2>Notificações</h2>
             <span>
-            Texto teste
+             <table>
+          <thead>
+            <tr>
+              <th  width="25%" >Nome</th>
+              <th  width="45%" >Contato</th>
+              <th  width="45%">Email</th>
+              <th>Item</th>
+              <th>Vencimento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="icon"> <a href="../info-usuario/info-usuario.html"><i class="bi bi-arrow-up-right-square"></i></a><span> João da Silva</span></td>
+              <td>+5578325899-412435</td>
+              <td>joãodorotary@gmail.com</td>
+              <td>#7359879843</td>
+              <td>Em 10 dias</td>
+              
+            </tr>
+            </tbody>
+          </table>
             </span>
             <div class="btns">
                 <button class="btnClose" onclick="closeModal()">Close</button>
