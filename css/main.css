@@ -56,6 +56,11 @@ figure{
     font-size: 1em;
     padding: 20px 5px;
 }
+
+.navMenu ul{
+    padding-left: 40px;
+}
+
 .navMenu ul li a{
     display: block;
     text-decoration: none;
