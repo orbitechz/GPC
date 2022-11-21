@@ -37,7 +37,7 @@ body {
     }
 }
 
-    button:hover{
+    .button-user:hover{
     background-image: linear-gradient(15deg,#F7A81B,#f3c436);
     animation-name: animation-button;
     animation-duration: 0.5s;
@@ -45,7 +45,7 @@ body {
     animation-iteration-count: infinite;
     animation-direction:alternate;
 }
-button{
+.button-user{
     user-select: none;
     cursor: pointer;
     width: 220px;
