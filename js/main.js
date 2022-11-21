@@ -20,7 +20,8 @@ head.insertAdjacentHTML(
 
 body.insertAdjacentHTML(
   "afterbegin",
-  `<sidebar class="navMenu">
+  `<div class="camada"></div>
+  <sidebar class="navMenu">
 <figure><img class="logo-sidebar" src="../../assets/imgs/logo-rt-int-2.png" alt="Sistema GPC Rotary"></figure>
 <nav>
     <ul>
@@ -73,12 +74,15 @@ body.insertAdjacentHTML(
 );
 
 const modal = document.querySelector(".modal-container");
-
+const camada = document.querySelector(".camada");
 function openModal() {
   modal.classList.add("active");
+  camada.classList.add("active");
+  
 }
 
 function closeModal() {
   modal.classList.remove("active");
+  camada.classList.remove("active");
 }
 

@@ -5,7 +5,14 @@
  padding: 0px;
 }
 
-
+.camada.active{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(1, 1, 1, 0.5);
+    position: absolute;
+    z-index: 0;
+    transition: 1000ms;
+}
 
 .btnOpenModal {
     font-size: 1em;
@@ -21,20 +28,26 @@
 
 .modal-container{
     width: 100vw;
-    position: fixed;
+    position: absolute;
     height: 60vh;
     top: 60px;
     display: none;
-    z-index: 999;
+    z-index: 3;
     justify-content: center;
     font-family: Inter;
+}
+
+.modal-container td{
+    color: black;
 }
 
 .modal {
     display: flex;
     flex-direction:  column;
     padding: 30px;
-    background-image: linear-gradient(#a1d0fb,#0067C8 );
+    /* background-image: linear-gradient(#a1d0fb,#0067C8 ); */
+    background-color: white;
+    color: #0067C8;
     border-radius: 10px;
     width: 50%;
 
@@ -101,8 +114,3 @@
 }
 
 /*----------------------------------------------------------------*/
-
-
-.modal h2{
- color: #fff;
-}

@@ -206,8 +206,8 @@ table {
 
 .red {
   margin-top: 30px;
-    transform: translate(230%,50%);
-    width: 162px;
+  justify-self: center;
+  width: 162px;
   height: 27px;
   color: #fff;
   font-size: 12px;
