@@ -8,48 +8,49 @@ body {
 
 /* POP-UP GENRERAL CSS */
 
-.popUp {
+.popUpDel {
+  width: 450px;
+  height: 100px;
   position: fixed;
+  border-radius: 10px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 99;
-  -webkit-box-shadow: 7px -2px 26px -3px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 7px -2px 26px -3px rgba(0, 0, 0, 0.6);
-  box-shadow: 7px -2px 26px -3px rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(#a1d0fb,#0067C8 );
+  filter: drop-shadow(8px 8px 8px #000 );
 }
 
 .show {
   display: none;
 }
 
-.popUp .modal {
+.popUpDel .modalDel{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
-.popUp .modal .con p {
+.popUpDel .modalDel .con p {
   font-family: Inter;
   font-size: 20px;
 }
 
-.popUp .modal .btns {
+.popUpDel .modalDel .btnsDel {
   display: flex;
   gap: 30px;
 }
 
-.popUp .modal .btns button {
+.popUpDel .modalDel .btnsDel button {
   align-self: center;
-  margin-top: 8px;
   background: #f7a81b;
-  border: 1px solid #ffffff;
+  border: none;
+  border-radius: 5px;
   color: #ffffff;
   font-family: "Inter";
-  width: 150px;
-  height: 38px;
+  width: 130px;
+  height: 30px;
   font-size: 18px;
   text-align: center;
   cursor: pointer;
