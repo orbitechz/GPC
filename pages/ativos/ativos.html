@@ -19,140 +19,223 @@
   </head>
   <body>
     <div class="body-content">
+      <div class="btns-user">
+        <button class="button-usersList" type="submit" id="list">Listar</button>
+        <button class="button-usersList" type="submit" id="register">Cadastrar Novo</button>
+      </div>
+      <section class="listar">
+      <section class="content-header">
+        <section class="header-path">
+          <p class="pathWay">
+            Ativos
+          </p>
+          <hr />
+        </section>
 
-      <section class="content">
-        <h1>Ativos</h1>
-        <form action="">
-          <label for="">Buscar Ativo</label>
-          <input type="date" />
-          <button>Buscar</button>
-        </form>
-  
-        <div class="lineBlue">
-          <ul>
-            <li>Usadas</li>
-            <li>Ações</li>
-          </ul>
+        
+
+        <div class="searchBox">
+          <p class="headerBtn">Buscar</p>
+          <form action="">
+            <input type="text" class="input" placeholder="Buscar" />
+            <input class="submitBtn" type="button" value="Buscar" />
+          </form>
         </div>
-  
-        <main>
-          <div class="used">
-            <ul>
-              <li>Cadastros 3 set</li>
-              <li>#988474</li>
-              <li><button>Disponível</button></li>
-            </ul>
-            <ul>
-              <li>Cadastros 3 set</li>
-              <li>#988474</li>
-              <li><button>Disponível</button></li>
-            </ul>
-            <ul>
-              <li>Cadastros 3 set</li>
-              <li>#988474</li>
-              <li><button>Disponível</button></li>
-            </ul>
-            <ul>
-              <li>Cadastros 3 set</li>
-              <li>#988474</li>
-              <li><button>Disponível</button></li>
-            </ul>
-          </div>
-  
-          <div class="allCategories">
-            <ul>
-              <li>Cadeira nova - nova</li>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-unlock"></i> Emprestar
-                </button>
-              </li>
-            </ul>
-            <ul>
-              <li>Cadeira nova - nova</li>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-unlock"></i> Emprestar
-                </button>
-              </li>
-            </ul>
-            <ul>
-              <li>Cadeira nova - nova</li>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-unlock"></i> Emprestar
-                </button>
-              </li>
-            </ul>
-            <ul>
-              <li>Cadeira nova - nova asd</li>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-unlock"></i> Emprestar
-                </button>
-              </li>
-            </ul>
-          </div>
-        </main>
-  
-        <div class="lineBlue">
-          <ul>
-            <li>Todas as Categorias</li>
-            <li>Últimas alterações</li>
-            <li>Ações</li>
-          </ul>
-        </div>
-  
-        <main class="latestChanges">
-          <div class="categories">
-            <ul>
-              <li>Cadastros 3 set</li>
-            </ul>
-          </div>
-  
-          <div class="changes">
-            <ul>
-              <li>Cadastros 3 set</li>
-            </ul>
-          </div>
-  
-          <div class="actions">
-            <ul>
-              <li>
-                <button class="view">
-                  <i class="bi bi-eye-fill"></i> Visualizar
-                </button>
-              </li>
-              <li>
-                <button class="lend">
-                  <i class="bi bi-arrow-down"></i> Emprestar
-                </button>
-              </li>
-            </ul>
-          </div>
-        </main>
       </section>
-    </div>
+
+      <section class="content-tables">
+        <table>
+          <thead>
+            <tr>
+              <th >Cadastros</th>
+              <th>Código</th>
+              <th>Status</th>
+              <th>Categoria</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cadastros 3 Sept </td>
+              <td>#00000</td>
+              <td><button class="stated">Disponível</button></td>
+              <td>Cadeira de rodas - Nova</td>
+              <td class="box">
+                <button class="blue">
+                  <i class="bi bi-eye"></i>Visualizar
+                </button>
+                <button class="yellow"><a href="ativos-emprestar.html"> <i class="bi bi-unlock"></i>Emprestar</a></button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Cadastros 3 Sept </td>
+              <td>#00000</td>
+              <td><button class="state">Em Uso</button></td>
+              <td>Cadeira de rodas - Nova</td>
+              <td class="box">
+                <button class="blue">
+                  <i class="bi bi-eye"></i>Visualizar
+                </button>
+                <button class="yellow"><a href="ativos-emprestar.html"> <i class="bi bi-lock"></i>Emprestar</a></button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Cadastros 3 Sept </td>
+              <td>#00000</td>
+              <td><button class="state">Em Uso</button></td>
+              <td>Cadeira de rodas - Nova</td>
+              <td class="box">
+                <button class="blue">
+                  <i class="bi bi-eye"></i>Visualizar
+                </button>
+                <button class="yellow"><a href="ativos-emprestar.html"> <i class="bi bi-lock"></i>Emprestar</a></button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Cadastros 3 Sept </td>
+              <td>#00000</td>
+              <td><button class="stated">Disponível</button></td>
+              <td>Cadeira de rodas - Nova</td>
+              <td class="box">
+                <button class="blue">
+                  <i class="bi bi-eye"></i>Visualizar
+                </button>
+                <button class="yellow"><a href="ativos-emprestar.html"> <i class="bi bi-unlock"></i>Emprestar</a></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table>
+          <thead>
+            <tr>
+              <th >Todas as categorias</th>
+              <th>Última alteração</th>
+              <th >Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cadeira de rodas - Nova</td>
+              <td>Ontem</td>
+              <td class="box">
+                <button class="blue">
+                  <i class="bi bi-eye"></i>Visualizar
+                </button>
+                <button class="red"><i class="bi bi-download"></i>PDF</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Cadeira de rodas - Usadas/Bom estado</td>
+              <td>Ontem</td>
+              <td class="box">
+                <button class="blue">
+                  <i class="bi bi-eye"></i>Visualizar
+                </button>
+                <button class="red"><i class="bi bi-download"></i>PDF</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Cama hospitalar</td>
+              <td>Segunda-feira</td>
+              <td class="box">
+                <button class="blue">
+                  <i class="bi bi-eye"></i>Visualizar
+                </button>
+                <button class="red"><i class="bi bi-download"></i>PDF</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        </section>
+      </section>
+      <section class="cadastro">
+        <div class="container">
+          <div class="title">
+            Cadastro de Ativos 
+            <hr />
+          </div>
+          <div class="content">
+            <form action="#" id="form1">
+              <div class="inputBox">
+                <span class="details">Nome do Ativo :</span>
+                <input
+                  type="text"
+                  name="firstName"
+                  id="firstName"
+                  placeholder="Nome do Ativo"
+                  required
+                />
+              </div>
+
+              <div class="inputBox">
+                <span class="details">Código :</span>
+                <input
+                  type="text"
+                  name="cpf/cic"
+                  id="cpf/cic"
+                  placeholder="xxx.xxx.xxx-xx"
+                  required
+                />
+              </div>
+
+              <div class="inputBox">
+                <span class="details">Categoria :</span>
+                <input
+                  type="text"
+                  name="rg"
+                  id="rg"
+                  placeholder="Categoria"
+                  required
+                />
+              </div>
+
+              <div class="inputBox">
+                <span class="details">Status :</span>
+                <input
+                  type="text"
+                  name="dateBirth"
+                  id="dateBirth"
+                  placeholder="Status"
+                  required
+                />
+              </div>
+
+              <div class="inputBox">
+                <span class="details">Data de Registro :</span>
+                <input
+                  type="date"
+                  name="cep"
+                  id="cep"
+                  required
+                />
+              </div>
+
+              <div class="inputBox">
+                <span class="detail">Adicionar Anexo :</span>
+                <input
+                  type="file"
+                  multiple
+                />
+              </div>
+              
+
+              <div class="flex-end">
+                <button type="submit" class="btn">Registrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </section>
+  </div>
+  <script src="../ativos/ativos.js"></script>
     <script src="../../js/main.js"></script>
   </body>
 </html>
