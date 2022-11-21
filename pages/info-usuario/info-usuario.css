@@ -66,14 +66,6 @@ a{
     justify-content: space-around;
 }
 
-.line{
-    background-color: #9CA1AD;
-    width: 80%;
-    height: 2px;
-    align-self: center;
-    margin-top: 1.5rem;
-}
-
 /* -------------------------------------- */
 
 .table-title{
