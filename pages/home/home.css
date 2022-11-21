@@ -17,7 +17,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 99;
-  background-image: linear-gradient(#a1d0fb,#0067C8 );
+  background-color: white;
   filter: drop-shadow(8px 8px 8px #000 );
 }
 
@@ -34,7 +34,7 @@ body {
 
 .popUpDel .modalDel .con p {
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .popUpDel .modalDel .btnsDel {
