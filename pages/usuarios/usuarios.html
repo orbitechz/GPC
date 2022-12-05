@@ -1,125 +1,134 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt_BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GPC Rotary - Usuários</title>
+    <title>GPC - Usuarios</title>
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="usuarios.css" />
-    <script src="usuarios.js"></script>
   </head>
   <body>
     <div class="body-content">
-        <div class="btnss">
-      <button class="button-user" type="submit" id="list">Listar</button>
-      <button class="button-user" type="submit" id="register">Cadastrar Novo</button>
-    </div>
-
-      <section class="listar">
-        <!--Content of Listar-->
-        <div class="searchBox">
+      <section class="content-header">
+        <div class="btns-user">
+          <button class="button-usersList" type="submit" id="list">Listar</button>
+          <button class="button-usersList" type="submit" id="register">Cadastrar Novo</button>
+        </div>
+        <div class="searchBox ">
           <p class="headerBtn">Buscar</p>
           <form action="">
             <input type="text" class="input" placeholder="Buscar" />
             <input class="submitBtn" type="button" value="Buscar" />
           </form>
         </div>
-        <div class="table-list">
-          <table>
-            <thead>
-              <tr>
-                <th width="25%" scope="col" class="table-header">Nome</th>
-                <th width="25%" scope="col" class="table-header">Contato</th>
-                <th width="25%" scope="col" class="table-header">E-mail</th>
-                <th width="25%" scope="col" class="table-header">#</th>
-              </tr>
-            </thead>
+      </section>
 
-            <tbody>
-              <tr>
-                <td class="table-name">
-                  <a href="../info-usuario/info-usuario.html"
-                    ><img
-                      class="link-image"
-                      src="assets/link-image.svg"
-                      alt="" /></a
-                  >João da Silva
-                </td>
-                <td class="inserts-table">+5578325899-412435</td>
-                <td class="inserts-table">joãodorotary@gmail.com</td>
-                <td class="inserts-table">#7359879843</td>
-              </tr>
+      <section class="listar">
 
-              <tr>
-                <td class="table-name">
-                  <a href="../info-usuario/info-usuario.html"
-                    ><img class="link-image" src="assets/link-image.svg" alt=""
-                  /></a>
-                  Maria Bezerra
-                </td>
-                <td class="inserts-table">+5578325899-412435</td>
-                <td class="inserts-table">joãodorotary@gmail.com</td>
-                <td class="inserts-table">#7359879843</td>
-              </tr>
-
-              <tr>
-                <td class="table-name">
-                  <a href="../info-usuario/info-usuario.html"
-                    ><img
-                      class="link-image"
-                      src="assets/link-image.svg"
-                      alt="" /></a
-                  >Vin Diesel
-                </td>
-                <td class="inserts-table">+5578325899-412435</td>
-                <td class="inserts-table">joãodorotary@gmail.com</td>
-                <td class="inserts-table">#7359879843</td>
-              </tr>
-
-              <tr>
-                <td class="table-name">
-                  <a href="../info-usuario/info-usuario.html"
-                    ><img
-                      class="link-image"
-                      src="assets/link-image.svg"
-                      alt="" /></a
-                  >Vin Álcool
-                </td>
-                <td class="inserts-table">+5578325899-412435</td>
-                <td class="inserts-table">joãodorotary@gmail.com</td>
-                <td class="inserts-table">#7359879843</td>
-              </tr>
-
-              <tr>
-                <td class="table-name">
-                  <a href="../info-usuario/info-usuario.html"
-                    ><img
-                      class="link-image"
-                      src="assets/link-image.svg"
-                      alt="" /></a
-                  >Vin Gasolina
-                </td>
-                <td class="inserts-table">+5578325899-412435</td>
-                <td class="inserts-table">joãodorotary@gmail.com</td>
-                <td class="inserts-table">#7359879843</td>
-              </tr>
-
+      <section class="content-tables">
+        <table>
+          <thead>
+            <tr>
+              <th  width="30%" >Nome</th>
+              <th  width="45%" >Contato</th>
+              <th  width="35%">Email</th>
+              <th>#</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
               <td class="table-name">
                 <a href="../info-usuario/info-usuario.html"
                   ><img
                     class="link-image"
                     src="assets/link-image.svg"
                     alt="" /></a
-                >Rhaenyra Targaryen
+                >João da Silva
               </td>
               <td class="inserts-table">+5578325899-412435</td>
               <td class="inserts-table">joãodorotary@gmail.com</td>
               <td class="inserts-table">#7359879843</td>
-            </tbody>
-          </table>
-        </div>
-      </section>
+            </tr>
 
+            <tr>
+              <td class="table-name">
+                <a href="../info-usuario/info-usuario.html"
+                  ><img class="link-image" src="assets/link-image.svg" alt=""
+                /></a>
+                Maria Bezerra
+              </td>
+              <td class="inserts-table">+5578325899-412435</td>
+              <td class="inserts-table">joãodorotary@gmail.com</td>
+              <td class="inserts-table">#7359879843</td>
+            </tr>
+
+            <tr>
+              <td class="table-name">
+                <a href="../info-usuario/info-usuario.html"
+                  ><img
+                    class="link-image"
+                    src="assets/link-image.svg"
+                    alt="" /></a
+                >Vin Diesel
+              </td>
+              <td class="inserts-table">+5578325899-412435</td>
+              <td class="inserts-table">joãodorotary@gmail.com</td>
+              <td class="inserts-table">#7359879843</td>
+            </tr>
+
+            <tr>
+              <td class="table-name">
+                <a href="../info-usuario/info-usuario.html"
+                  ><img
+                    class="link-image"
+                    src="assets/link-image.svg"
+                    alt="" /></a
+                >Vin Álcool
+              </td>
+              <td class="inserts-table">+5578325899-412435</td>
+              <td class="inserts-table">joãodorotary@gmail.com</td>
+              <td class="inserts-table">#7359879843</td>
+            </tr>
+
+            <tr>
+              <td class="table-name">
+                <a href="../info-usuario/info-usuario.html"
+                  ><img
+                    class="link-image"
+                    src="assets/link-image.svg"
+                    alt="" /></a
+                >Vin Gasolina
+              </td>
+              <td class="inserts-table">+5578325899-412435</td>
+              <td class="inserts-table">joãodorotary@gmail.com</td>
+              <td class="inserts-table">#7359879843</td>
+            </tr>
+
+            <td class="table-name">
+              <a href="../info-usuario/info-usuario.html"
+                ><img
+                  class="link-image"
+                  src="assets/link-image.svg"
+                  alt="" /></a
+              >Rhaenyra Targaryen
+            </td>
+            <td class="inserts-table">+5578325899-412435</td>
+            <td class="inserts-table">joãodorotary@gmail.com</td>
+            <td class="inserts-table">#7359879843</td>
+          </tbody>
+        </table>
+        </section>
+      </section>
       <section class="cadastro">
         <div class="container">
           <div class="title">
@@ -317,7 +326,8 @@
           </div>
         </div>
       </section>
-    </div>
+  </div>
+  <script src="../usuarios/usuarios.js"></script>
     <script src="../../js/main.js"></script>
   </body>
 </html>
