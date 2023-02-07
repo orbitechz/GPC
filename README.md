@@ -24,4 +24,4 @@
 Criação de sistema, com a hospedagem a definir, em que o demandante possa fazer cadastro pessoas e controle de ativos
 
 O demandante, Rotary Club, é uma organização sem fundos lucrativos que visa ajudar a população carente EMPRESTANDO equipamentos como cadeira de rodas, muletas, etc.
-Por este motivo, o demandante encontra-se na necessidade de fazer o controle de ativos desses equipamentos emprestados para que haja controle sobre os mesmos. Consequentemente, ao usar o controle de ativos, se faz a necessidade de um Cadastro de Pessoas.
+Por este motivo, o demandante encontra-se na necessidade de fazer o controle de ativos desses equipamentos emprestados para que haja controle sobre os mesmos. Consequentemente, ao usar o controle de ativos, se faz a necessidade de um Cadastro de Pessoas. 
