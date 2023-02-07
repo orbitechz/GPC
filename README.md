@@ -17,7 +17,7 @@
 
 > Jean Moschen: jeanfelipe0610@gmail.com
 
-> Tiago Guillande: tiagoguillande@gmail.com
+> Matheus Ricardo Lopes: matheuslopes0501@hotmail.com
 ---
 <center><h3><b>DESCRIÇÃO DO PROJETO</b></h3></center>
 
